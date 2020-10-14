@@ -12,7 +12,8 @@ html &amp; css uppgift nr2
   - common theme for repetitions
 - make everything clickable that looks clickable
 - make searchways correct (arrows instead of forward slash)
-
+- set definition of userstory
+- set basic structure
 - better structure on the page
 
 ## Demands
@@ -29,8 +30,7 @@ html &amp; css uppgift nr2
 - Apple iPhone 8 (414x736)
 
 #### Content demands
-Innehåller ny design för samtliga landningssidor i MYH.se (Länkar till en externa sida.)Länkar till en externa sida.
-
+Innehåller ny design för samtliga landningssidor i MYH.se 
 huvudmeny:
 
 - Start
