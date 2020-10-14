@@ -1,32 +1,28 @@
 #holygrail-container {
     display: grid;
     grid-template-areas:
-        ‘header header header’
-        ‘main main aside’
+        ‘header header header’ 
+        ‘main main aside’ 
         ‘footer footer footer’;
-        align-items: center;
- }
-
- header {
-     grid-area: header;
- }
-
- nav {
-     grid-area: header;
- }
-
-.link-lis {
-    display: flex;
 }
 
- main {
-     grid-area: main;
- }
+header {
+    grid-area: header;
+}
 
- aside {
-     grid-area: aside;
- }
+nav {
+    grid-area: header;
+}
 
- footer {
-     grid-area: footer;
- }
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
