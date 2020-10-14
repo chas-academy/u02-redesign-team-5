@@ -1,28 +1,77 @@
-#holygrail-container {
-    display: grid;
-    grid-template-areas:
-        ‘header header header’ 
-        ‘main main aside’ 
-        ‘footer footer footer’;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#holygrail-container {
+  display: grid;
+  grid-template-areas:
+    ‘header header header’
+    ‘main main aside’
+    ‘footer footer footer’;
+}
 header {
-    grid-area: header;
+  grid-area: header;
+  height: auto;
+}
+
+#logo {
+  margin: 30px;
 }
 
 nav {
-    grid-area: header;
+  grid-area: header;
+  height: 50px;
+  width: 100vw;
+}
+#nav-bar {
+  display: flex;
+  justify-content: center;
+}
+.link-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* margin: 30px; */
 }
 
-
 main {
-    grid-area: main;
+  grid-area: main;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: black;
 }
 
 aside {
-    grid-area: aside;
+  grid-area: aside;
+}
+
+.second-link-list {
+  height: 100%;
+  margin: 30px;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.second-link-list > a {
+  padding: 30px;
 }
 
 footer {
-    grid-area: footer;
+  grid-area: footer;
+  height: 150px;
 }
