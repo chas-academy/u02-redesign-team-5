@@ -12,7 +12,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 200px auto 200px;
   grid-template-areas:
     "header header header"
     "main main aside"
@@ -20,7 +20,6 @@ body {
 }
 header {
   grid-area: header;
-  height: auto;
 }
 
 #logo {
@@ -29,13 +28,13 @@ header {
 
 nav {
   grid-area: header;
-  height: 50px;
   width: 100vw;
 }
 #nav-bar {
   display: flex;
   justify-content: center;
 }
+
 .link-list {
   width: 100%;
   list-style: none;
@@ -47,6 +46,7 @@ nav {
 
 main {
   grid-area: main;
+  height: 100%;
   width: 100vw;
 }
 
