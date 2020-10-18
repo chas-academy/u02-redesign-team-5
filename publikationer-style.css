@@ -45,8 +45,7 @@ select {
   -moz-appearance: none;
   appearance: none;
 
-  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Focticons%2F1024%2Fchevron-down-512.png&f=1&nofb=1)
-    96% / 6% no-repeat whitesmoke;
+  background: url("images/arrow.png") 96% / 6% no-repeat whitesmoke;
 }
 
 /* @media  */
