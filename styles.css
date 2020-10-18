@@ -9,11 +9,14 @@ body {
 }
 
 #holygrail-container {
+  height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
-    ‘header header header’
-    ‘main main aside’
-    ‘footer footer footer’;
+    "header header header"
+    "main main aside"
+    "footer footer footer";
 }
 header {
   grid-area: header;
@@ -44,7 +47,6 @@ nav {
 
 main {
   grid-area: main;
-  height: 100vh;
   width: 100vw;
 }
 
