@@ -1,3 +1,57 @@
-h1 {
-  color: blue;
+.pub-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
 }
+
+.push-box {
+  width: 100%;
+  border: 2px solid green;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.push-box > * {
+  border: 2px solid black;
+}
+
+#page-intro {
+  margin: 1em;
+}
+
+h1 {
+  padding-bottom: 1em;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+
+select {
+  margin: 1em;
+  width: 170px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #000;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Focticons%2F1024%2Fchevron-down-512.png&f=1&nofb=1)
+    96% / 6% no-repeat whitesmoke;
+}
+
+/* @media  */
+
+/* .push-box:nth-child(1) {
+  flex-direction: row-reverse;
+  border: 2px solid red;
+} */

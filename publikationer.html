@@ -40,17 +40,105 @@
       </nav>
     </header>
     <main>
-      <h1>Publikationer</h1>
+      <article id="page-intro">
+        <h1>Publikationer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
+          obcaecati omnis quisquam tempore repellat odit laborum cumque, eaque
+          et? Alias corporis ex incidunt! Amet aut dolor magni assumenda
+          reprehenderit? Temporibus. Optio in recusandae animi officiis sapiente
+          magnam pariatur commodi est illo consequuntur odit, soluta aspernatur
+          minus ipsa at non, labore vitae repudiandae. Eveniet ullam quibusdam
+          quae impedit facere voluptatum rerum! Sit beatae illo a odio
+          cupiditate nobis inventore error rerum tempora fuga. Vitae similique
+          aliquam ipsum debitis eos reprehenderit id, voluptatem rem assumenda,
+          nobis soluta amet officia quam magni aut?
+        </p>
+      </article>
+      <div class="pub-container">
+        <div class="push-box">
+          <h2>
+            <a
+              alt="Link to pdf showing the handbok for tilltrade till yrkeshogskolan"
+              href="https://www.myh.se/Publikationer/2020/Handbok-for-tilltrade-till-yrkeshogskolan---2020/"
+              >Handbok för tillträde till yrkeshögskolan - 2020</a
+            >
+          </h2>
+          <img
+            alt="thumbnail to the cover of the pdf document"
+            src="HandbokForTilltrade_reviderat_5juni2020_justerad_200703.pdf.jpg"
+          />
+        </div>
+        <div class="push-box">
+          <h2>
+            <a
+              href="https://www.myh.se/Publikationer/2020/Kvalitetskriterier-for-validering---yrkeshogskoleutbildning-konst--och-kulturutbildningar-och-tolkutbildning-inom-folkbildningen/"
+              >Kvalitetskriterier</a
+            >
+          </h2>
+          <img
+            src="Kvalitetskriterier_validering.pdf.jpg"
+            alt="thumbnail to
+            the pdf publication"
+          />
+        </div>
+      </div>
+
+      <div class="filter-form">
+        <form id="type-selector">
+          <label for="publication-type"> <h4>Publikationstyp</h4> </label>
+          <select id="publication-type" name="publication-type">
+            <option value="">Publikationstyp</option>
+            <option value="rapporter">Rapporter</option>
+            <option value="aterraportering">
+              Återrapportering av regeringsuppdrag
+            </option>
+            <option value="information">Informationsmaterial</option>
+            <option value="redovisningar">Årsredovisningar</option>
+          </select>
+        </form>
+
+        <form id="activity-selector">
+          <label for="activity-type"> <h4>Verksamhetsområde</h4> </label>
+          <select id="activity-type" name="activity-type">
+            <option value="">Verksamhetsområde</option>
+            <option value="yrkeshogskolan">Yrkeshögskolan</option>
+            <option value="kulturutbildningar">
+              Konst- och kulturutbildningar
+            </option>
+            <option value="tolkutbildningar">Tolkutbildningar</option>
+            <option value="tillsyn">Utbildningar med endast tillsyn</option>
+            <option value="validering">Validering</option>
+            <option value="seqf">SeQF</option>
+          </select>
+        </form>
+
+        <form id="year-selector">
+          <label for="year"> <h4>År</h4></label>
+          <select id="year" name="year" placeholder="År">
+            <option value="">År</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016 och äldre</option>
+          </select>
+        </form>
+
+        <form id="search-selector">
+          <h4>Sök</h4>
+          <label for="search"> </label>
+          <input
+            id="search"
+            name="search"
+            placeholder="Skriv din söktext här"
+          />
+        </form>
+      </div>
+
       <!-- Main content here -->
     </main>
-    <aside>
-      <ul class="second-link-list">
-        <li><a href="#">Länk 1</a></li>
-        <li><a href="#">Länk 2</a></li>
-        <li><a href="#">Länk 3</a></li>
-        <li><a href="#">Länk 4</a></li>
-      </ul>
-    </aside>
+    <aside></aside>
     <footer>
       <!-- Placeholder for footer -->
     </footer>
