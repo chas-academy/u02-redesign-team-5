@@ -1,12 +1,12 @@
-ul > li > a.laws {
+ul>li>a.laws {
   font-weight: bolder;
   font-size: 18px;
   text-decoration: none;
 }
 
-a:hover{
- font-size: 20px;
- transition:0.3s;
+a:hover {
+  font-size: 20px;
+  transition: 0.3s;
 }
 
 ul {
@@ -19,7 +19,7 @@ ul {
   margin: 20px;
 }
 
-.law-box{
+.law-box {
   border: 1px solid #cdcbcb;
   box-shadow: 5px 10px #cdcbcb;
   padding: 20px;
@@ -27,7 +27,7 @@ ul {
 
 .themis {
   margin: 15px;
-  border:1px #cdcbcb;
+  border: 1px #cdcbcb;
 }
 
 h5 {
@@ -46,11 +46,12 @@ h5 {
   margin: 15px;
 }
 
-.law-aside{
+.law-aside {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
 }
+
 /* ACCORDION */
 .accordion:hover .accordion-item:hover .accordion-item-content,
 .accordion .accordion-item--default .accordion-item-content {
@@ -80,36 +81,51 @@ h5 {
   width: 220px;
 
 }
-.accordion-h6{
+
+.accordion-h6 {
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-.accordion-p{
+.accordion-p {
   font-size: 12px;
   font-weight: 100;
   text-decoration: none;
-  color:black;
+  color: black;
   width: fit-content;
 }
 
-.accordion-p:hover{
-font-size: 16px;
-transition:0.3s;
-width: fit-content;
+.accordion-p:hover {
+  font-size: 16px;
+  transition: 0.3s;
+  width: fit-content;
 }
+
 .accordion-p-q {
   font-size: 12px;
   font-weight: 100;
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 input .text {
   width: 180px;
-  margin-top:10px;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.thumbnail:hover {
+  width: 35px;
+  height: 35px;
+  z-index: 999;
+  transition: 0.3s;
 }
 
 /* .accordion .accordion-item:nth-child(1) {
