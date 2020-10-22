@@ -12,18 +12,17 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.push-box > * {
-  border: 2px solid black;
+  text-decoration: none;
 }
 
 #page-intro {
-  margin: 1em;
+  margin: 4em 1em;
+  font-family: "Open sans" sans-serif;
 }
 
 h1 {
   padding-bottom: 1em;
+  font-family: "Roboto" sans-serif;
 }
 
 .filter-form {
