@@ -73,13 +73,13 @@
 
           <section class="post-adress box">
             <h3>Postadresser</h3>
-            <article class="post-vast">
+            <article>
               <h4>Postadress Västerås</h4>
               <p>Myndigheten för yrkeshögskolan</p>
               <p>Box 145</p>
               <p>721 05 Västerås</p>
             </article>
-            <article class="post-hassle">
+            <article>
               <h4>Postadress Hässleholm</h4>
               <p>Myndigheten för yrkeshögskolan</p>
               <p>Box 85</p>
@@ -89,14 +89,14 @@
 
           <section class="visit-adress box">
             <h3>Besöksadresser</h3>
-            <article class="visit-vast">
+            <article>
               <h4>Besöksadress Västerås</h4>
               <p>Ingenjör Bååths gata 19</p>
               <p>722 12 Västerås</p>
               <p>Öppettider: Helgfri måndag-fredag kl 09.00-15.00
               lunchstängt 12.00-13.00.</p>
             </article>
-            <article class="visit-hassle">            
+            <article>            
               <h4>Besöksadress Hässleholm</h4>
               <p>Frykholmsgatan 10</p>
               <p>281 31 Hässleholm</p>
@@ -120,14 +120,10 @@
 
     
           <section class="news box">
-            <h3>Nyheter & frågor</h3>
+            <h3>Nyheter & Pressjour</h3>
           <article>
             <h4>Pressjour</h4>
             <p>Besök vårt nyhetsrum eller ring <a href="tel:0102090173">010-209 01 73</a></p>
-          </article>
-          <article>
-            <h4>Vanliga frågor</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, voluptatibus!</p>
           </article>
         </section>
         </div>
@@ -138,15 +134,18 @@
           <h3>Du kan även kontakta oss i formuläret nedan</h3>
 
           <label for="firstname">Förnamn: </label>
-          <input type="text" id="firstname" placeholder="Skriv in ditt förnamn" required>
+          <input type="text" id="firstname" placeholder="Skriv in ditt förnamn">
 
           <label for="lastname" Placeholder="Skriv in ditt förnamn">Efternamn: </label>
           <input type="text" id="lastname" placeholder="Skriv in ditt efternamn">
          
-          <label for="email-input">Email-adress: </label>
-          <input type="email" name="email" id="email-input" placeholder="Skriv in din mail adress" required>
+          <label class="required" for="email-input">Email-adress: </label>
+          <input type="email" name="email" id="email-input" placeholder="Skriv in din e-mail adress" required>
+
+          <label class="required" for="subject-input">Ämne: </label>
+          <input type="text" name="subject" id="subject-input" placeholder="Frågans ämne" required>
           
-          <label for="question-topic">Din fråga: </label>
+          <label class="required" for="question-topic">Din fråga: </label>
 
           <textarea name="" id="question-topic" cols="30" rows="10" required></textarea>
 

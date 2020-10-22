@@ -43,9 +43,10 @@ html {
 
 .box {   
     width: 330px;
-    height: 500px;
+    height: 420px;
     margin: 50px auto;
-    border-top: 5px solid rgba(253, 255, 106, 0.8);  
+    border-top: 5px solid rgba(253, 255, 106, 0.8); 
+    padding: 10px;
 }
 
 .box a {
@@ -64,12 +65,12 @@ html {
 .box h4 {
     margin-top: 50px;
     margin-left: 10px;
-    margin-bottom: 20px;   
+    margin-bottom: 10px;   
 }
 
 .box p{
     margin-left: 10px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 
@@ -107,6 +108,10 @@ html {
 .contact-form input:hover {
     background-color: rgb(226, 226, 226);
 }
+.required:after {
+    content:"*";
+    color: red;
+  }
 
 .contact-form .btn {
     background-color: rgb(49, 224, 210);
