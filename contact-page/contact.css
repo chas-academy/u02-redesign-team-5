@@ -127,6 +127,15 @@ html {
 }
 .contact-form .btn:hover {
     background-color: rgb(40, 184, 172);
+    height: 52px;
+    width: 51%;
+}
+
+.contact-form .btn:focus {
+    outline: none;
+    background-color: rgb(40, 184, 172);
+    height: 52px;
+    width: 51%;
 }
 
 .contact-form textarea {
