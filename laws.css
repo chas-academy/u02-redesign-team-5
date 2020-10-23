@@ -1,3 +1,4 @@
+
 ul>li>a.laws {
   font-weight: bolder;
   font-size: 18px;
@@ -17,26 +18,35 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px;
+}
+.main-header {
+ background-color: aqua;
+ display: flex;
+ justify-content: center;
+}
+
+h1 {
+  padding: 50px;
 }
 
 .law-box {
-  border: 1px solid #cdcbcb;
+  border-top: 1px solid #cdcbcb;
+  border-bottom: 1px solid #cdcbcb;
   box-shadow: 5px 10px #cdcbcb;
-  padding: 20px;
+  padding: 15px;
+  width: 100vw;
+  margin: auto;
 }
 
-.themis {
-  margin: 15px;
-  border: 1px #cdcbcb;
-}
+
 
 h5 {
   word-break: break-word;
   font-weight: 400;
   font-size: 16px;
   width: 600px;
-  margin: 15px;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 .themis-text {
@@ -44,36 +54,44 @@ h5 {
   font-size: 14px;
   font-weight: 300;
   width: 600px;
-  margin: 15px;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .law-aside {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 50px;
+  margin: auto;
 }
 
 /* ACCORDION */
-.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
+/*  .accordion-item:hover .accordion-item-content,
+ .accordion-item--default{
   height: 7em;
 }
 
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
+
+.accordion-item-content {
   height: 0;
   overflow: hidden;
   transition: height .25s;
-}
+} */
 
 
 
-.accordion {
+/* .accordion {
   width: 40%;
-  margin: 15px;
-}
+  display: contents;
+} */
 
-.accordion .accordion-item {
+.accordion1
+.accordion2
+.accordion3
+.accordion4
+ .accordion-item, 
+.accordion-item1, 
+.accordion-item2,
+.accordion-item3,
+.accordion-item4 {
   background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
   border: 1px solid #666;
   padding: 1em;
@@ -86,6 +104,7 @@ h5 {
 .accordion-h6 {
   font-size: 14px;
   font-weight: 400;
+  text-align: center;
   text-decoration: none;
   color: black;
 }
@@ -129,23 +148,73 @@ input .text {
   transition: 0.3s;
 }
 
-/* .accordion .accordion-item:nth-child(1) {
+.accordion1 .accordion-item1/* :nth-child(1) */ {
   background-color: hsl(200, 80%, 60%);
   background-image: linear-gradient(-90deg, hsl(200, 80%, 60%), hsl(200, 80%, 45%) 2em, hsl(200, 80%, 60%));
-
 }
 
-.accordion .accordion-item:nth-child(2) {
+ .accordion-item1:hover .accordion-item-content1,
+ .accordion-item1--default {
+   height: 7em;
+ }
+
+ .accordion-item-content1 {
+   height: 0;
+   overflow: hidden;
+   transition: height .25s;
+ }
+
+.accordion2 .accordion-item2/* :nth-child(2) */ {
   background-color: hsl(280, 60%, 45%);
   background-image: linear-gradient(-90deg, hsl(280, 80%, 60%), hsl(280, 60%, 45%) 2em, hsl(280, 80%, 60%));
 }
+ .accordion-item2:hover .accordion-item-content2,
+ .accordion-item2--default {
+   height: 7em;
+ }
 
-.accordion .accordion-item:nth-child(3) {
+ .accordion-item-content2 {
+   height: 0;
+   overflow: hidden;
+   transition: height .25s;
+ }
+
+.accordion3 .accordion-item3 {
   background-color: hsl(40, 80%, 40%);
   background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
 }
 
-.accordion .accordion-item:nth-child(4) {
+ .accordion-item3:hover .accordion-item-content3,
+ .accordion-item3--default {
+   height: 7em;
+ }
+
+ .accordion-item-content3 {
+   height: 0;
+   overflow: hidden;
+   transition: height .25s;
+ }
+
+.accordion4 .accordion-item4 {
   background-color: hsl(80, 40%, 40%);
   background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
-} */
+}
+ .accordion-item4:hover .accordion-item-content4,
+ .accordion-item4--default {
+   height: 7em;
+ }
+
+ .accordion-item-content4 {
+   height: 0;
+   overflow: hidden;
+   transition: height .25s;
+ }
+
+
+@media only screen and (max-width: 736px) {
+  .law-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
