@@ -1,53 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 h1 , h2, h3, h4, h5, p {
   padding: 1rem;
 }
 
-.big-btn {
-  padding: 1rem;
-  width: 50px;
-  background-color: aquamarine;
-  height:100px;
 
-}
 
-body {
-  font-family: "Roboto", sans-serif;
-}
 
-#holygrail-container-om {
-  background-color: lightblue;
-  height: 100vh; /* varför är denna bara 100vh? Och varför är det bara border som svarar på 100vh, medan background-color tar hela bakgrunden?*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px auto 200px;
-  grid-template-areas:
-    "header header header"
-    "main main aside"
-    "footer footer footer";
-}
 header {
-  background-color: lightgray;
-  grid-area: header;
+  background-color: white;
+  top: 0;
+  position: sticky;
+  padding: 1em;
+  box-shadow:0 3px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
 }
 
-#logo {
-  margin: 30px;
-}
 
-nav {
-  grid-area: header;
-  width: 100vw;
-}
-#nav-bar {
-  display: flex;
-  justify-content: center;
-}
 
 .link-list {
   width: 100%;
@@ -58,48 +26,65 @@ nav {
   /* margin: 30px; */
 }
 
-#main-om {
-  background-color: lightpink;
-  grid-area: main;
-  height: 100%;
 
-  margin: 60px;
-
+.parallax {
+  background-color: rgb(248, 248, 248);
+  width: 100vw;
+  padding: 3rem;
+  margin-bottom: 8rem;
 }
 
-#intro {
-margin;
+.parallax-img {
+  height: 200px;
+  width: 100vw;
+  background-image: url(./images/flatlay-desk.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
   
 }
 
-ul > li > a {
-  text-decoration: none;
-  color: black;
-}
-
-aside {
-  background-color: rgba(255, 235, 205, 0.411); 
-  grid-area: aside;
-}
-
-.second-link-list {
-  background-color: rgba(240, 248, 255, 0.411); 
+.center-content {
+  width: 800px;
+  text-align: center;
+  background-color: rgb(255, 246, 206);
+  grid-area: main;
   height: 100%;
-  margin: 30px;
-  list-style: none;
+  margin: auto;
+  
+}
+
+.btn-center {
+  grid-area: main;
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
+  width: 90vw;
+  margin: auto;
 }
 
-.second-link-list > a {
-  padding: 30px;
+.big-btn {
+  padding: 1rem;
+  margin: 2rem;
+  width: 10rem;
+  background-color: rgb(177, 174, 174);
+  height: 4rem;
+  box-shadow: rgb(238, 154, 98) 2px 3px 5px 1px ;
+  border-radius: 3px;
+}
+.big-btn a:hover {
+  color: black;
+  font-size: 120%;   
+}
+
+.big-btn a:active {
+  color: rgb(193, 152, 209);
 }
 
 
 
-footer {
-  grid-area: footer;
-  height: 150px;
-}
+
+
+
