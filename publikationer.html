@@ -53,8 +53,8 @@
         </p>
       </article>
 
-      <div class="filter-form">
-        <form id="type-selector">
+      <form id="filter-form">
+        <div class="section">
           <label for="publication-type"> <h4>Publikationstyp</h4> </label>
           <select id="publication-type" name="publication-type">
             <option value="">Publikationstyp</option>
@@ -65,9 +65,9 @@
             <option value="information">Informationsmaterial</option>
             <option value="redovisningar">Årsredovisningar</option>
           </select>
-        </form>
+        </div>
 
-        <form id="activity-selector">
+        <div class="section">
           <label for="activity-type"> <h4>Verksamhetsområde</h4> </label>
           <select id="activity-type" name="activity-type">
             <option value="">Verksamhetsområde</option>
@@ -80,9 +80,9 @@
             <option value="validering">Validering</option>
             <option value="seqf">SeQF</option>
           </select>
-        </form>
+        </div>
 
-        <form id="year-selector">
+        <div class="section">
           <label for="year"> <h4>År</h4></label>
           <select id="year" name="year" placeholder="År">
             <option value="">År</option>
@@ -92,11 +92,8 @@
             <option value="2017">2017</option>
             <option value="2016">2016 och äldre</option>
           </select>
-        </form>
-      </div>
-
-      <div class="search-box">
-        <form id="search-form">
+        </div>
+        <div class="search-container">
           <h4>Fri textsökning</h4>
           <label for="search"> </label>
           <input
@@ -104,8 +101,8 @@
             name="search"
             placeholder="Skriv din söktext här"
           />
-        </form>
-      </div>
+        </div>
+      </form>
 
       <div class="pub-container">
         <div class="push-box">
