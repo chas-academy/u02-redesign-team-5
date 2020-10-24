@@ -20,6 +20,11 @@ body {
 }
 header {
   grid-area: header;
+  background-color: rgb(238, 238, 238);
+  top: 0;
+  position: sticky;
+  padding: 1em;
+  box-shadow:0 3px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
 }
 
 #logo {
