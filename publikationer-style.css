@@ -1,27 +1,12 @@
 .pub-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 2px solid blue;
-}
-
-.push-box {
-  width: 100%;
-  border: 2px solid green;
-  margin: 15px;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  text-decoration: none;
-}
-
-#page-intro {
-  margin: 4em 1em;
-  font-family: "Open sans" sans-serif;
+  align-items: center;
 }
 
 h1 {
-  padding-bottom: 1em;
+  padding: 1.5em 0;
   font-family: "Roboto" sans-serif;
 }
 
@@ -29,7 +14,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 3em;
   padding-bottom: 2em;
 }
 
@@ -45,6 +30,86 @@ select {
   appearance: none;
 
   background: url("images/arrow.png") 96% / 6% no-repeat whitesmoke;
+}
+
+.search-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#search {
+  border: 1px solid #000;
+  height: 34px;
+  padding: 5px;
+  margin: 1em;
+}
+
+.push-box {
+  height: 180px;
+  width: 800px;
+  border: 2px solid black;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container > h2 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.text-container > p {
+  max-width: 65ch;
+  padding-top: 1em;
+}
+
+#page-intro {
+  margin: 4em 1em;
+  font-family: "Open sans" sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+.hover-box {
+  position: relative;
+  width: 13%;
+}
+
+.hover-box > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hover-box-top-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease;
+  background-color: rgb(244, 244, 98);
+}
+
+.hover-box:hover .hover-box-top-layer {
+  opacity: 1;
+}
+
+.hover-text {
+  color: #000;
+  font-size: 12pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* @media  */
