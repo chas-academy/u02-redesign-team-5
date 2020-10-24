@@ -4,21 +4,11 @@ h1 , h2, h3, h4, h5, p {
   padding: 1rem;
 }
 
-.link-list {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  /* margin: 30px; */
-}
-
-
 .parallax {
   background-color: rgb(248, 248, 248);
   width: 100vw;
   padding: 3rem;
-  margin-bottom: 8rem;
+ 
 }
 
 .parallax-img {
@@ -29,14 +19,13 @@ h1 , h2, h3, h4, h5, p {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  
-  
 }
 
 .center-content {
   width: 800px;
   text-align: center;
-  background-color: rgb(255, 246, 206);
+  border-right: 1px solid black;
+  border-left: 1px solid black;
   grid-area: main;
   height: 100%;
   margin: auto;
@@ -58,18 +47,18 @@ h1 , h2, h3, h4, h5, p {
   width: 10rem;
   background-color: rgb(177, 174, 174);
   height: 4rem;
-  box-shadow: rgb(238, 154, 98) 2px 3px 5px 1px ;
+  
   border-radius: 3px;
 }
-.big-btn a:hover {
+.btn-center a:hover {
   color: black;
   font-size: 120%;   
 }
 
-.big-btn a:active {
-  color: rgb(193, 152, 209);
+.btn-center > a {
+  text-decoration: none;
+  color: black;
 }
-
 
 
 
