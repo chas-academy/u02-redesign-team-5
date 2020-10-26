@@ -16,7 +16,7 @@ body {
   grid-template-rows: 200px auto 200px;
   grid-template-areas:
     "header header header"
-    "main main aside"
+    "main main main"
     "footer footer footer";
 }
 header {
@@ -56,9 +56,7 @@ ul > li > a {
   color: black;
 }
 
-aside {
-  grid-area: aside;
-}
+
 
 .second-link-list {
   height: 100%;
