@@ -112,7 +112,14 @@ footer p{
 footer h4 {
   margin: 10px 5px 0 0;
 }
-
+#play-icon {
+  width: 16px;
+  height: 16px;  
+  margin-right: 5px;
+}
+#youtube {
+  display: flex;
+}
 .contact {
   display: flex;
   flex-direction: column;
