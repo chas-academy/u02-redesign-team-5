@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
@@ -74,7 +75,77 @@ aside {
   padding: 30px;
 }
 
-footer {
+/* footer {
   grid-area: footer;
   height: 150px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px auto;
+  width: 80%;
+} */
+
+/* FOOTER-BRANCH-WORK */
+footer {
+  grid-area: footer;
+  height: 170px;
+  background-color: rgb(43, 43, 59);
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  color: rgb(209, 208, 208);
+  font-size: 12px;
+  justify-content: center;
 }
+footer a{
+  color: rgb(209, 208, 208);
+  font-weight: 600;
+  margin: 3px 0;
+}
+footer a:hover{
+  font-size: 0.8rem;
+}
+footer h3 {
+  margin-bottom: 10px;
+}
+footer p{
+  max-width: 150px;
+}
+footer h4 {
+  margin: 10px 5px 0 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.our-web {
+  display: flex;
+  flex-direction: column;
+}
+.our-news {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  margin: 25px 0px 4px 4px;
+  width: 180px;
+  
+}
+
+@media screen and (max-width: 1280px) {
+  .footer-content {
+   width: 180px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .footer-content {
+    width: 145px;
+  }
+  footer {
+    font-size: 0.67rem;
+  }
+
+}
+
+
