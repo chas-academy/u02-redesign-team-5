@@ -155,3 +155,53 @@ h2 > a:hover,
 .pagination > a:hover:not(.active) {
   background-color: whitesmoke;
 }
+
+@media (max-width: 800px) {
+  #page-intro {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #page-intro > p {
+    width: 600px;
+  }
+
+  h1 {
+    width: 600px;
+    align-self: flex-start;
+  }
+  #filter-form {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid red;
+  }
+
+  .section,
+  .search-container {
+    border: 2px solid blue;
+    width: 300px;
+  }
+
+  h4 {
+    padding-top: 1.5em;
+  }
+  .pub-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .push-box {
+    width: 600px;
+    height: 100px;
+  }
+
+  .text-container > p {
+    display: none;
+  }
+}
