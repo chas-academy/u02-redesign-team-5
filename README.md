@@ -64,6 +64,10 @@ huvudmeny:
 
 ## STYLING
 
+#### Media querys
+- @media screen and (max-width: 1280px)
+- @media screen and (max-width: 720px)
+
 #### Accordion in CSS
 ##### HTML
 ```html
