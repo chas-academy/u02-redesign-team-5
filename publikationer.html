@@ -23,6 +23,24 @@
         alt="Logo for Myndigheten för yrkeshögskolan"
       />
 
+      <div id="search">
+        <input type="text" placeholder="Sök.." name="sök" />
+        <button type="submit">Sök</button>
+      </div>
+
+      <div id="x-content">
+        <a href="#">English</a>
+        <a href="#"
+          ><img class="icon" src="./images/latt-last.png" alt="" />Lättläst</a
+        >
+        <a href="#"
+          ><img class="icon" src="./images/font-size.png" alt="" />Anpassa</a
+        >
+        <a href="#"
+          ><img class="icon" src="./images/padlock.png" alt="" />Mina Sidor</a
+        >
+      </div>
+
       <nav id="nav-bar">
         <ul class="link-list">
           <li><a href="#">Start</a></li>
@@ -42,7 +60,7 @@
         <p>
           Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad,
           broschyrer, informationsblad och andra publikationer. Du kan välja typ
-          av publikation, område och utgivningsår i rutan till höger.
+          av publikation, område och utgivningsår i rutorna här nedan.
         </p>
       </article>
 
@@ -88,10 +106,10 @@
         </div>
         <div class="search-container">
           <h4>Fritextsökning</h4>
-          <label for="search"> </label>
+          <label for="searchPub"> </label>
           <input
-            id="search"
-            name="search"
+            id="searchPub"
+            name="searchPub"
             placeholder="Skriv din söktext här"
           />
         </div>
@@ -107,7 +125,7 @@
                 >Handbok för tillträde till yrkeshögskolan - 2020</a
               >
             </h2>
-            <p>
+            <p class="description-text">
               Denna handbok vänder sig i första hand till de som bedriver
               yrkeshögskoleutbildning och behöver stöd i hanteringen av
               tillträdesprocessen. Den kan också fungera som ett stöd för dem
@@ -142,7 +160,7 @@
                 >Kvalitetskriterier</a
               >
             </h2>
-            <p>
+            <p class="description-text">
               Myndigheten har tagit fram kvalitetskriterier för arbetet med
               validering inom de utbildningsformer som myndigheten granskar och
               ansvarar för. Kvalitetskriterierna syftar till att främja arbetet
@@ -177,7 +195,7 @@
                 >Områdesanalys hälso- och sjukvård samt sociala medier</a
               >
             </h2>
-            <p>
+            <p class="description-text">
               Områdesanalysen är framtagen av Myndigheten för yrkeshögskolan som
               ett underlag för de handläggare som arbetar med att läsa
               ansökningar om att få bedriva YH-utbildning, men kan också vara en
@@ -213,7 +231,7 @@
                 >Områdesanalys industri</a
               >
             </h2>
-            <p>
+            <p class="description-text">
               Områdesanalysen är framtagen av Myndigheten för yrkeshögskolan som
               ett underlag för de handläggare som arbetar med att läsa
               ansökningar om att få bedriva YH-utbildning, men kan också vara en

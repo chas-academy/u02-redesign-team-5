@@ -19,8 +19,7 @@ h1 {
 #filter-form {
   display: flex;
   justify-content: space-between;
-  margin-top: 4em;
-  padding-bottom: 1em;
+  margin: 4em 0;
 }
 
 #filter-form > * {
@@ -32,7 +31,7 @@ h4 {
 }
 
 select,
-#search {
+#searchPub {
   width: 170px;
   padding-left: 5px;
   font-size: 14px;
@@ -157,41 +156,31 @@ h2 > a:hover,
 }
 
 @media (max-width: 800px) {
-  #page-intro {
-    width: 100vw;
+  main {
+    width: 600px;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
-  #page-intro > p {
-    width: 600px;
-  }
-
-  h1 {
-    width: 600px;
-    align-self: flex-start;
-  }
   #filter-form {
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border: 2px solid red;
+    justify-content: space-between;
+    margin: 2em 0;
   }
 
-  .section,
   .search-container {
-    border: 2px solid blue;
-    width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   h4 {
-    padding-top: 1.5em;
+    padding-top: 1em;
   }
   .pub-container {
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -201,7 +190,25 @@ h2 > a:hover,
     height: 100px;
   }
 
-  .text-container > p {
+  .description-text {
     display: none;
+  }
+
+  .hover-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+  }
+
+  .hover-box > img {
+    font-size: 12pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
   }
 }
