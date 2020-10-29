@@ -146,4 +146,97 @@ huvudmeny:
   overflow: hidden;
   transition: height .25s;
 }
+```
+
+#### SELECT BUTTONS
+
+##### HTML
+
+```HTML
+
+<div class="section">
+          <label for="activity-type"> <h4>Verksamhetsområde</h4> </label>
+          <select id="activity-type" name="activity-type">
+            <option value="">Verksamhetsområde</option>
+            <option value="yrkeshogskolan">Yrkeshögskolan</option>
+            <option value="kulturutbildningar">
+              Konst- och kulturutbildningar
+            </option>
+            <option value="tolkutbildningar">Tolkutbildningar</option>
+            <option value="tillsyn">Utbildningar med endast tillsyn</option>
+            <option value="validering">Validering</option>
+            <option value="seqf">SeQF</option>
+          </select>
+        </div>
+```
+
+##### CSS
+
+```CSS
+select,
+#searchPub {
+  width: 170px;
+  padding-left: 5px;
+  font-size: 14px;
+  border: 1px solid #000;
+  height: 34px;
+  background: whitesmoke;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("images/arrow.png") 96% / 6% no-repeat whitesmoke;
+}
+```
+
+#### PAGINATION
+
+##### HTML
+
+```HTML
+<div class="center-number">
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+```
+
+##### CSS
+
+```CSS
+.center-number {
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  border: 1px solid #000;
+  margin: 0 4px;
+}
+
+.pagination > a.active {
+  background-color: yellow;
+  border: 2px solid #000;
+}
+
+.pagination > a:hover:not(.active) {
+  background-color: whitesmoke;
+}
+```
 
