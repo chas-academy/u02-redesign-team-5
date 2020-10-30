@@ -129,6 +129,7 @@ h2 > a:hover,
 }
 
 .center-number {
+  margin-top: 3em;
   text-align: center;
 }
 
@@ -190,8 +191,22 @@ h2 > a:hover,
     height: 100px;
   }
 
-  .description-text {
+  .text-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .description-text,
+  .publish-date {
     display: none;
+  }
+
+  .publish-date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid blue;
   }
 
   .hover-box {
@@ -202,13 +217,7 @@ h2 > a:hover,
     height: 100%;
   }
 
-  .hover-box > img {
-    font-size: 12pt;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-align: center;
+  .pagination > a {
+    padding: 12px 25px;
   }
 }
