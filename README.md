@@ -71,18 +71,24 @@ huvudmeny:
 #### Accordion in CSS
 ##### HTML
 ```html
-     <ul class="accordion4">
-      <li class="accordion-item4"> 
-        <p class="accordion-h6">Dela denna info 💻 </p>
-        <p class="accordion-h6">⬇</p>
-        <div class="accordion-item-content4">
-           <hr>
-          <img class="thumbnail" src="assets/fb.png" alt="fb-icon" width="25" height="25">
-          <img class="thumbnail" src="assets/mail.png" alt="mail-icon" width="25" height="25">
-          <img class="thumbnail" src="assets/twitter.png" alt="twitter-icon" width="25" height="25">
-        </div>
-      </li>
-     </ul>
+    <ul class="accordion1">
+        <li class="accordion-item1">
+          <p class="accordion-h6">Lagar, Regler & Tillsyn 🧑🏽‍⚖️</p>
+          <p class="accordion-h6">⬇</p>
+          <div class="accordion-item-content1">
+            <ul>
+              <hr>
+              <li><a href="#" class="accordion-p">Lagar & förordningar</a></li>
+              <li><a href="#" class="accordion-p">Gällande föreskrifter</a></li>
+              <li><a href="#" class="accordion-p">Allmäna råd</a></li>
+              <li><a href="#" class="accordion-p">Tillsyn</a></li>
+              <li><a href="#" class="accordion-p">Kvalitetsgranskning</a></li>
+              <li><a href="#" class="accordion-p">Anmäl brister i utbildning</a></li>
+            </ul>
+          </div>
+          </a>
+        </li>
+      </ul>
  ```    
  ##### CSS
 ```css 
