@@ -75,6 +75,8 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
+  box-shadow: -1px -5px 10px -5px  gray;
+  padding-top: 1em;
   /* margin: 30px; */
 }
 
