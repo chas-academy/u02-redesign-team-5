@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="publikationer-style.css" type="text/css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Myh - Redesign</title>
+  </head>
+
+  <body id="holygrail-container">
+    <header>
+      <img
+        id="logo"
+        src="images/myh_logga.png"
+        alt="Logo for Myndigheten för yrkeshögskolan"
+      />
+
+      <div id="search">
+        <input type="text" placeholder="Sök.." name="sök" />
+        <button type="submit">Sök</button>
+      </div>
+
+      <div id="x-content">
+        <a href="#">English</a>
+        <a href="#"
+          ><img class="icon" src="./images/latt-last.png" alt="" />Lättläst</a
+        >
+        <a href="#"
+          ><img class="icon" src="./images/font-size.png" alt="" />Anpassa</a
+        >
+        <a href="#"
+          ><img class="icon" src="./images/padlock.png" alt="" />Mina Sidor</a
+        >
+      </div>
+
+      <nav id="nav-bar">
+        <ul class="link-list">
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Om oss</a></li>
+          <li><a href="#">Verksamhetsområden</a></li>
+          <li><a href="#">Lager, regler osv</a></li>
+          <li><a href="#">Statistik</a></li>
+          <li><a href="#">Publikationer</a></li>
+          <li><a href="#">Nyhetsrum</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="page-intro">
+        <h1>Publikationer</h1>
+        <p>
+          Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad,
+          broschyrer, informationsblad och andra publikationer. Du kan välja typ
+          av publikation, område och utgivningsår i rutorna här nedan.
+        </p>
+      </article>
+
+      <form id="filter-form">
+        <div class="section">
+          <label for="publication-type"> <h4>Publikationstyp</h4> </label>
+          <select id="publication-type" name="publication-type">
+            <option value="">Publikationstyp</option>
+            <option value="rapporter">Rapporter</option>
+            <option value="aterraportering">
+              Återrapportering av regeringsuppdrag
+            </option>
+            <option value="information">Informationsmaterial</option>
+            <option value="redovisningar">Årsredovisningar</option>
+          </select>
+        </div>
+
+        <div class="section">
+          <label for="activity-type"> <h4>Verksamhetsområde</h4> </label>
+          <select id="activity-type" name="activity-type">
+            <option value="">Verksamhetsområde</option>
+            <option value="yrkeshogskolan">Yrkeshögskolan</option>
+            <option value="kulturutbildningar">
+              Konst- och kulturutbildningar
+            </option>
+            <option value="tolkutbildningar">Tolkutbildningar</option>
+            <option value="tillsyn">Utbildningar med endast tillsyn</option>
+            <option value="validering">Validering</option>
+            <option value="seqf">SeQF</option>
+          </select>
+        </div>
+
+        <div class="section">
+          <label for="year"> <h4>År</h4></label>
+          <select id="year" name="year" placeholder="År">
+            <option value="">År</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016 och äldre</option>
+          </select>
+        </div>
+        <div class="search-container">
+          <h4>Fritextsökning</h4>
+          <label for="searchPub"> </label>
+          <input
+            id="searchPub"
+            name="searchPub"
+            placeholder="Skriv din söktext här"
+          />
+        </div>
+      </form>
+
+      <div class="pub-container">
+        <div class="push-box">
+          <div class="text-container">
+            <h2>
+              <a
+                alt="Link to pdf showing the handbok for tilltrade till yrkeshogskolan"
+                href="https://www.myh.se/Publikationer/2020/Handbok-for-tilltrade-till-yrkeshogskolan---2020/"
+                >Handbok för tillträde till yrkeshögskolan - 2020</a
+              >
+            </h2>
+            <p class="description-text">
+              Denna handbok vänder sig i första hand till de som bedriver
+              yrkeshögskoleutbildning och behöver stöd i hanteringen av
+              tillträdesprocessen. Den kan också fungera som ett stöd för dem
+              som planerar att anordna yrkeshögskoleutbildning och till alla som
+              vill veta mer om hur tillträde fungerar.
+            </p>
+            <p class="publish-date">Publicerad 2020-07-10</p>
+          </div>
+          <div class="hover-box">
+            <img
+              alt="thumbnail to the cover of the pdf document"
+              src="images/HandbokForTilltrade_reviderat_5juni2020_justerad_200703.pdf.jpg"
+              height="120px"
+            />
+            <div class="hover-box-top-layer">
+              <div class="hover-text">
+                <a
+                  href="https://www.myh.se/Documents/Publikationer/HandbokForTilltrade_reviderat_5juni2020_justerad_200703.pdf"
+                  target="_blank"
+                  >Ladda ner som PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="push-box">
+          <div class="text-container">
+            <h2>
+              <a
+                href="https://www.myh.se/Publikationer/2020/Kvalitetskriterier-for-validering---yrkeshogskoleutbildning-konst--och-kulturutbildningar-och-tolkutbildning-inom-folkbildningen/"
+                >Kvalitetskriterier</a
+              >
+            </h2>
+            <p class="description-text">
+              Myndigheten har tagit fram kvalitetskriterier för arbetet med
+              validering inom de utbildningsformer som myndigheten granskar och
+              ansvarar för. Kvalitetskriterierna syftar till att främja arbetet
+              med validering och att vara kvalitetsdrivande för genomförande av
+              validering samt underlätta för de som arbetar med validering.
+            </p>
+            <p class="publish-date">Publicerad 2020-07-10</p>
+          </div>
+          <div class="hover-box">
+            <img
+              alt="thumbnail to the cover of the pdf document"
+              src="images/Kvalitetskriterier_validering.pdf.jpg"
+              height="120px"
+            />
+            <div class="hover-box-top-layer">
+              <div class="hover-text">
+                <a
+                  href="https://www.myh.se/Documents/Publikationer/Kvalitetskriterier_validering.pdf"
+                  target="_blank"
+                >
+                  Ladda ner som PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="push-box">
+          <div class="text-container">
+            <h2>
+              <a href="Områdesanalys hälso- och sjukvård samt socialt arbete"
+                >Områdesanalys hälso- och sjukvård samt sociala medier</a
+              >
+            </h2>
+            <p class="description-text">
+              Områdesanalysen är framtagen av Myndigheten för yrkeshögskolan som
+              ett underlag för de handläggare som arbetar med att läsa
+              ansökningar om att få bedriva YH-utbildning, men kan också vara en
+              bra resurs för de utbildningsanordnare som jobbar med att ta fram
+              nya ansökningar.
+            </p>
+            <p class="publish-date">Publicerad 2020-07-10</p>
+          </div>
+          <div class="hover-box">
+            <img
+              alt="thumbnail to the cover of the pdf document"
+              src="images/Analys_HalsoSjukvard2020.pdf.jpg"
+              height="120px"
+            />
+            <div class="hover-box-top-layer">
+              <div class="hover-text">
+                <a
+                  href="https://www.myh.se/Documents/Publikationer/Rapporter/2020/Analys_HalsoSjukvard2020.pdf"
+                  target="_blank"
+                >
+                  Ladda ner som PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="push-box">
+          <div class="text-container">
+            <h2>
+              <a
+                href="https://www.myh.se/Publikationer/2020/Kvalitetskriterier-for-validering---yrkeshogskoleutbildning-konst--och-kulturutbildningar-och-tolkutbildning-inom-folkbildningen/"
+                >Områdesanalys industri</a
+              >
+            </h2>
+            <p class="description-text">
+              Områdesanalysen är framtagen av Myndigheten för yrkeshögskolan som
+              ett underlag för de handläggare som arbetar med att läsa
+              ansökningar om att få bedriva YH-utbildning, men kan också vara en
+              bra resurs för de utbildningsanordnare som jobbar med att ta fram
+              nya ansökningar.
+            </p>
+            <p class="publish-date">Publicerad 2020-07-10</p>
+          </div>
+          <div class="hover-box">
+            <img
+              alt="thumbnail to the cover of the pdf document"
+              src="images/Industri-Analys2020.pdf.jpg"
+              height="120px"
+            />
+            <div class="hover-box-top-layer">
+              <div class="hover-text">
+                <a
+                  href="https://www.myh.se/Documents/Publikationer/Rapporter/2020/Industri-Analys2020.pdf"
+                  target="_blank"
+                >
+                  Ladda ner som PDF</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center-number">
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">&raquo;</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Placeholder for footer -->
+    </footer>
+  </body>
+</html>
