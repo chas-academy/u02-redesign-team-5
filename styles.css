@@ -33,15 +33,7 @@ header {
   margin: 30px;
 }
 
-.icon {
-  height: 20px;
-<<<<<<< HEAD
-  margin-right:.3rem;
-  margin-top: 5px;
-=======
-  margin-right: 0.3rem;
->>>>>>> c4cbfa8e9d6019640a48f5d9fde08bf3d4eb653f
-}
+
 #search {
   right: 40px;
   top: 10px;
@@ -81,6 +73,8 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
+  box-shadow: -1px -5px 10px -5px  gray;
+  padding-top: 1em;
   /* margin: 30px; */
 }
 
