@@ -240,3 +240,22 @@ select {
 }
 ```
 
+#### PARALLAX
+##### HTML
+
+```
+<div class="parallax-img"></div>
+```
+##### CSS
+```
+.parallax-img {
+  height: 200px;
+  width: 100vw;
+  background-image: url(./images/flatlay-desk.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -50px 300px;
+  background-size: cover;
+  opacity: 50%;
+}
+```
