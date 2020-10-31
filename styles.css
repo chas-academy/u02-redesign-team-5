@@ -106,8 +106,7 @@ ul > li > a {
 }
 
 .second-link-list > a {
-  padding: 30px;
-  
+  padding: 30px; 
 }
 
 
@@ -162,7 +161,6 @@ footer h4 {
   margin-right: 5px;
   margin-bottom: 5px;
 }
-<<<<<<< HEAD
 #twitter {
   display: flex;
 }
@@ -199,32 +197,3 @@ footer h4 {
 }
 
 
-=======
-
-
-@media screen and (max-width: 890px){
-
-  #logo {
-    width: 6em;
-    margin-bottom: 72px;
-  }
-
-  #x-content {
-    font-size: 80%;
-    height: 3em;
-  }
-
-  .link-list {
-    font-size: 90%;
-   
-  }
-
-  .link-list  a { 
-
-  }
-
-  @media screen and (max-width: 414px)
-
-
-}
->>>>>>> 3e5013c0ee056ff9b1aad6b79e254f62807b71bc
