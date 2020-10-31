@@ -124,7 +124,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-
 .accordion-item2:hover .accordion-item-content2,
 .accordion-item2--default {
   height: 7em;
@@ -134,7 +133,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-
 .accordion-item3:hover .accordion-item-content3,
 .accordion-item3--default {
   height: 7em;
@@ -144,7 +142,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-
 .accordion-item4:hover .accordion-item-content4,
 .accordion-item4--default {
   height: 7em;
@@ -154,7 +151,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-
 
 .accordion-item5:hover .accordion-item-content5,
 .accordion-item5--default {
@@ -166,7 +162,6 @@ input .text {
   transition: height .25s;
 }
 
-
 .accordion-item6:hover .accordion-item-content6,
 .accordion-item6--default {
   height: 7em;
@@ -177,7 +172,6 @@ input .text {
   transition: height .25s;
 }
 
-
 .accordion-item7:hover .accordion-item-content7,
 .accordion-item7--default {
   height: 7em;
@@ -187,7 +181,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-
 
 
 

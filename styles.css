@@ -39,6 +39,7 @@ header {
   top: 10px;
   position: absolute;
 }
+
 #x-content > a {
   text-decoration: none;
   padding: 0.5rem;
@@ -62,6 +63,7 @@ nav {
   grid-area: header;
   width: 100vw;
 }
+
 #nav-bar {
   display: flex;
   justify-content: center;
@@ -87,6 +89,8 @@ main {
 ul > li > a {
   text-decoration: none;
   color: black;
+  border-right: 1px solid black;
+  padding-right: 0.7em;
 }
 
 .second-link-list {
@@ -101,9 +105,37 @@ ul > li > a {
 
 .second-link-list > a {
   padding: 30px;
+  
 }
 
 footer {
   grid-area: footer;
   height: 150px;
+}
+
+
+@media screen and (max-width: 890px){
+
+  #logo {
+    width: 6em;
+    margin-bottom: 72px;
+  }
+
+  #x-content {
+    font-size: 80%;
+    height: 3em;
+  }
+
+  .link-list {
+    font-size: 90%;
+   
+  }
+
+  .link-list  a { 
+
+  }
+
+  @media screen and (max-width: 414px)
+
+
 }
