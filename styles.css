@@ -86,7 +86,7 @@ aside {
 /* FOOTER-BRANCH-WORK */
 footer {
   grid-area: footer;
-  height: 170px;
+  height: 200px;
   background-color: rgb(43, 43, 59);
   margin: 0px auto;
   width: 100%;
@@ -113,11 +113,20 @@ footer h4 {
   margin: 10px 5px 0 0;
 }
 #play-icon {
-  width: 16px;
-  height: 16px;  
+  width: 20px;
+  height: 20px;  
   margin-right: 5px;
 }
 #youtube {
+  display: flex;
+}
+#twitter-icon {
+  height: 18px;
+  width: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#twitter {
   display: flex;
 }
 .contact {
@@ -134,23 +143,20 @@ footer h4 {
 }
 
 .footer-content {
-  margin: 25px 0px 4px 4px;
-  width: 180px;
-  
+  padding-left: 20px;
+  margin-top: 25px;
+  width: 340px; 
 }
 
 @media screen and (max-width: 1280px) {
   .footer-content {
-   width: 180px;
+   width: 200px;
   }
 }
 
 @media screen and (max-width: 720px){
   .footer-content {
     width: 145px;
-  }
-  footer {
-    font-size: 0.67rem;
   }
 
 }
