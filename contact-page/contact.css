@@ -30,10 +30,8 @@ header {
     height: 460px;
     margin: 50px auto;
     border-top: 3px solid rgba(253, 255, 106, 0.8); 
-    padding: 10px;
-    
+    padding: 10px;   
 }
-
 
 .info {
     grid-column: 1/2;
