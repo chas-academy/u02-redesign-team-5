@@ -183,35 +183,6 @@ input .text {
 }
 
 
-
-
-.big-btn {
-  padding: 1rem;
-  margin: 2rem;
-  width: 10rem;
-  background-color: rgb(177, 174, 174);
-  height: 4rem;
-  
-  border-radius: 3px;
-}
-.btn-center a:hover {
-  color: black;
-  font-size: 120%;   
-}
-
-.btn-center > a {
-  text-decoration: none;
-  color: black;
-}
-
-.so-me {
-  width: 2em;
-  margin: 1em;
-  display: inline;
-  
-  
-}
-
 @media screen and (max-width: 890px){
   .center-content {
     width: 80%;
