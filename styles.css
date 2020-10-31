@@ -23,6 +23,7 @@ header {
   grid-area: header;
   background-color: rgb(238, 238, 238);
   top: 0;
+  padding-bottom: 1em;
   position: sticky;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
   z-index: 1;
@@ -32,10 +33,7 @@ header {
   margin: 30px;
 }
 
-.icon {
-  height: 20px;
-  margin-right: 0.3rem;
-}
+
 #search {
   right: 40px;
   top: 10px;
@@ -108,4 +106,27 @@ ul > li > a {
 footer {
   grid-area: footer;
   height: 150px;
+}
+
+
+@media screen and (max-width: 890px){
+
+  #logo {
+    width: 6em
+  }
+
+  #x-content {
+    font-size: 80%
+  }
+
+  .link-list {
+    font-size: 90%;
+  }
+
+  .link-list  a {
+    padding-right: 0.7em;
+    border-right: 1px solid black
+
+  }
+
 }
