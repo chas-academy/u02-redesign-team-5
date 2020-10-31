@@ -212,7 +212,7 @@ input .text {
   
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 890px){
   .center-content {
     width: 80%;
   }
