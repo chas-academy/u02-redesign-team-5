@@ -75,15 +75,9 @@ aside {
   padding: 30px;
 }
 
-/* footer {
-  grid-area: footer;
-  height: 150px;
-  background-color: rgb(255, 255, 255);
-  margin: 0px auto;
-  width: 80%;
-} */
 
-/* FOOTER-BRANCH-WORK */
+
+/* FOOTER */
 footer {
   grid-area: footer;
   height: 200px;
