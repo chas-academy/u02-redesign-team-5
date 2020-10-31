@@ -212,6 +212,12 @@ input .text {
   
 }
 
+@media screen and (max-width: 720px){
+  .center-content {
+    width: 80%;
+  }
+}
+
 
 
 
