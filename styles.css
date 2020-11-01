@@ -85,8 +85,7 @@ main {
   width: 100vw;
 }
 
-<<<<<<< HEAD
-=======
+
 .carrousel {
   background: #ffffff;
   text-align: center;
@@ -211,9 +210,7 @@ main {
 }
 
 @media (max-width: 796px) {
-}
 
->>>>>>> main
 ul > li > a {
   text-decoration: none;
   color: black;
@@ -343,8 +340,7 @@ footer h4 {
     font-size: 90%;
   }
 }
-<<<<<<< HEAD
-=======
+
 
 @media (max-width: 480px) {
   .carrousel li p {
@@ -358,4 +354,3 @@ footer h4 {
     margin-right: 0.25em;
   }
 }
->>>>>>> main
