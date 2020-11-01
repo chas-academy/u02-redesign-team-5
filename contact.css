@@ -1,6 +1,19 @@
 html {
     overflow-x: hidden;
 }
+
+#flik a{
+    color: rgb(238, 238, 238);
+  }
+  
+  #flik {
+    padding: 1em 1em 0 1em;
+    background-color: rgb(43, 43, 59);
+    border-radius: 1em 0 0 0;
+    
+  }
+
+  
 header {
     position: sticky;   
     background-color: white;
