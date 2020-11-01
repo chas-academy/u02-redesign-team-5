@@ -90,7 +90,7 @@ main {
   width: 100vw;
 }
 
-************************** .carrousel {
+ .carrousel {
   background: #ffffff;
   text-align: center;
   padding: 4em 0;
@@ -218,9 +218,7 @@ main {
 
 @media (max-width: 796px) {}
 
-
-
-*************************** ul>li>a {
+ ul>li>a {
   text-decoration: none;
   color: black;
   border-right: 1px solid black;
@@ -361,8 +359,9 @@ footer h4 {
 
   .link-list {
     font-size: 90%;
-  }
+   }
 }
+
 
 @media (max-width: 480px) {
   .carrousel li p {
@@ -370,9 +369,11 @@ footer h4 {
     padding-right: 0.5em;
   }
 
+
   .carrousel li img {
     width: 2em;
     margin-left: -1em;
     margin-right: 0.25em;
   }
 }
+
