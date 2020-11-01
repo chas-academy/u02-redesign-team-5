@@ -16,6 +16,7 @@
 
     <title>Myh - Redesign</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
   </head>
 
   <body id="holygrail-container">
@@ -33,8 +34,10 @@
 
       <div id="x-content">
         <a href="#">English</a>
-        <a href="#"><i class="fas fa-question-circle"></i> Lättläst</a>
-        <a href="#"><i class="fas fa-text-height"></i> Anpassa</a>
+        <a href="#"><i class="fas fa-question-circle"></i>
+          Lättläst</a>
+        <a href="#"><i class="fas fa-text-height"></i>
+          Anpassa</a>
         <a href="#"><i class="fas fa-user-lock"></i>Mina Sidor</a>
       </div>
 
@@ -43,7 +46,7 @@
           <li><a href="#">Start</a></li>
           <li><a href="om-oss.html">Om oss</a></li>
           <li><a href="#">Verksamhetsområden</a></li>
-          <li><a href="laws.html">Lager, regler & statistik</a></li>
+          <li><a href="laws.html">Lager, regler & statistik</a></li>   
           <li><a href="publikationer.html">Publikationer</a></li>
           <li><a href="#">Nyhetsrum</a></li>
           <li><a href="#">Kontakt</a></li>
@@ -52,67 +55,72 @@
     </header>
 
     <main>
-      <!-- Main content here -->
-      <ul class="second-link-list">
-        <li><a href="#">Länk 1</a></li>
-        <li><a href="#">Länk 2</a></li>
-        <li><a href="#">Länk 3</a></li>
-        <li><a href="#">Länk 4</a></li>
+    <div class="carrousel">
+      <h2>Title</h2>
+      <input type="radio" name="slides" id="radio-1" checked>
+      <input type="radio" name="slides" id="radio-2">
+      <input type="radio" name="slides" id="radio-3">
+      <input type="radio" name="slides" id="radio-4">
+      <ul class="slides">
+        <li class="slide">
+          <p>
+            <img class="start-img" src="./images/flatlay-desk.jpg">
+          </p>
+        </li>
+        <li class="slide">
+          <p>
+            <img class="start-img" src="./images/themis.jpg">
+          </p>
+        </li>
+        <li class="slide">
+          <p>
+
+            <img class="start-img" src="./images/graphic_background.jpg">
+
+          </p>
+        </li>
+        <li class="slide">
+          <p>
+            <img class="start-img" src="./images/graphic_background.jpg">
+
+          </p>
+        </li>
       </ul>
+      <div class="slidesNavigation">
+        <label for="radio-1" id="dotForRadio-1"></label>
+        <label for="radio-2" id="dotForRadio-2"></label>
+        <label for="radio-3" id="dotForRadio-3"></label>
+        <label for="radio-4" id="dotForRadio-4"></label>
+      </div>
+    </div>
     </main>
 
     <footer>
       <div class="contact footer-content">
         <div class="footer-container">
-          <h3>Kontakta oss</h3>
-          <p>
-            Kontaktuppgifter & kontaktalternativ finns här:
-            <a target="__blank" href="/contact-page/contact.html"
-              >kontakta oss</a
-            >
-          </p>
-          <h4>Ansvarig utgivare</h4>
-          <p>Thomas Persson, generaldirektör MYH</p>
-        </div>
+        <h3>Kontakta oss</h3>
+        <p>Kontaktuppgifter & kontaktalternativ finns här: <a target="__blank" href="/contact-page/contact.html">kontakta oss</a></p>
+        <h4>Ansvarig utgivare</h4>
+        <p>Thomas Persson, generaldirektör MYH</p>
+      </div>
       </div>
       <div class="our-news footer-content">
         <div class="footer-container">
-          <h3>Håll dig informerad</h3>
-          <!-- <h4>Press</h4> -->
-          <p>
-            Presskontaker och pressmeddelanden finns i vårat
-            <a href="#">nyhetsrum</a>
-          </p>
-          <a
-            id="youtube"
-            target="__blank"
-            href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"
-            ><img id="play-icon" src="img/play-img.png" alt="" />Youtube</a
-          >
-          <a
-            id="twitter"
-            target="__blank"
-            href="https://twitter.com/yhmyndigheten"
-            ><img
-              id="twitter-icon"
-              src="/img/twitter-img.png"
-              alt=""
-            />Twitter</a
-          >
-        </div>
+        <h3>Håll dig informerad</h3>
+        <!-- <h4>Press</h4> -->
+        <p>Presskontaker och pressmeddelanden finns i vårat <a href="#">nyhetsrum</a></p>
+        <a id="youtube" target="__blank" href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"><img id=play-icon src="img/play-img.png" alt="">Youtube</a>
+        <a id="twitter" target="__blank" href="https://twitter.com/yhmyndigheten"><img id="twitter-icon" src="/img/twitter-img.png" alt="">Twitter</a>
+      </div>
       </div>
       <div class="our-web footer-content">
         <div class="footer-container">
-          <h3>Våra webbplatser</h3>
-          <a target="__blank" href="https://www.yrkeshögskolan.se"
-            >www.yrkeshögskolan.se</a
-          >
-          <a target="__blank" href="https://www.konstkulturutbildning.se"
-            >www.konstkulturutbildning.se</a
-          >
-          <a target="__blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
-          <a target="__blank" href="https://www.seqf.se">www.seqf.se</a>
-        </div>
+        <h3>Våra webbplatser</h3>
+        <a target="__blank" href="https://www.yrkeshögskolan.se">www.yrkeshögskolan.se</a>
+        <a target="__blank" href="https://www.konstkulturutbildning.se">www.konstkulturutbildning.se</a>
+        <a target="__blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
+        <a target="__blank" href="https://www.seqf.se">www.seqf.se</a>
+      </div>
       </div>
     </footer>
   </body>
