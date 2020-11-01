@@ -5,10 +5,8 @@
   overflow-x: hidden;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
-
 }
 
 #holygrail-container {
@@ -36,14 +34,13 @@ header {
   margin: 30px;
 }
 
-
 #search {
   right: 40px;
   top: 10px;
   position: absolute;
 }
 
-#x-content>a {
+#x-content > a {
   text-decoration: none;
   padding: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -89,7 +86,7 @@ main {
   width: 100vw;
 }
 
- .carrousel {
+.carrousel {
   background: #ffffff;
   text-align: center;
   padding: 4em 0;
@@ -118,10 +115,10 @@ main {
   list-style: none;
   position: relative;
 
-  -webkit-transition: transform .5s;
-  -moz-transition: transform .5s;
-  -o-transition: transform .5s;
-  transition: transform .5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .carrousel .slides li {
@@ -185,39 +182,37 @@ main {
   font-size: 0;
 }
 
-
-#radio-1:checked~.slides {
+#radio-1:checked ~ .slides {
   transform: translateX(0%);
 }
 
-#radio-2:checked~.slides {
+#radio-2:checked ~ .slides {
   transform: translateX(-25%);
 }
 
-#radio-3:checked~.slides {
+#radio-3:checked ~ .slides {
   transform: translateX(-50%);
 }
 
-#radio-4:checked~.slides {
+#radio-4:checked ~ .slides {
   transform: translateX(-75%);
 }
-
 
 .carrousel .slidesNavigation label:hover {
   cursor: pointer;
 }
 
-
-.carrousel #radio-1:checked~.slidesNavigation label#dotForRadio-1,
-.carrousel #radio-2:checked~.slidesNavigation label#dotForRadio-2,
-.carrousel #radio-3:checked~.slidesNavigation label#dotForRadio-3,
-.carrousel #radio-4:checked~.slidesNavigation label#dotForRadio-4 {
+.carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
+.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
+.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
+.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
   background: #2980b9;
 }
 
-@media (max-width: 796px) {}
+@media (max-width: 796px) {
+}
 
- ul>li>a {
+ul > li > a {
   text-decoration: none;
   color: black;
   border-right: 1px solid black;
@@ -234,12 +229,9 @@ main {
   align-items: flex-end;
 }
 
-.second-link-list>a {
+.second-link-list > a {
   padding: 30px;
-
 }
-
-
 
 /* FOOTER */
 footer {
@@ -360,9 +352,8 @@ footer h4 {
 
   .link-list {
     font-size: 90%;
-   }
+  }
 }
-
 
 @media (max-width: 480px) {
   .carrousel li p {
@@ -370,11 +361,9 @@ footer h4 {
     padding-right: 0.5em;
   }
 
-
   .carrousel li img {
     width: 2em;
     margin-left: -1em;
     margin-right: 0.25em;
   }
 }
-
