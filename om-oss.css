@@ -1,7 +1,32 @@
+<<<<<<< HEAD
 h1 , h2, h3, h4, h5, p {
   padding: 1rem;
   
   font-weight: lighter;
+=======
+
+
+#main-om h1, 
+#main-om h2, 
+#main-om h3, 
+#main-om h4, 
+#main-om h5, 
+#main-om p{
+  padding: 1rem;
+  
+  font-weight: lighter;
+}
+
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
+  background-color: rgb(43, 43, 59);
+  border-radius: 1em 0 0 0;
+  
+>>>>>>> c7cde69b9e0980f7f09227a90188dab6ade0b458
 }
 
 .h1-banderoll {
@@ -35,10 +60,13 @@ h1 , h2, h3, h4, h5, p {
   margin: auto;
 }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> c7cde69b9e0980f7f09227a90188dab6ade0b458
 .btn-center {
   grid-area: main;
   display: flex;
@@ -181,33 +209,41 @@ input .text {
 }
 
 
-
-
-.big-btn {
-  padding: 1rem;
-  margin: 2rem;
-  width: 10rem;
-  background-color: rgb(177, 174, 174);
-  height: 4rem;
-  
-  border-radius: 3px;
-}
-.btn-center a:hover {
-  color: black;
-  font-size: 120%;   
+@media screen and (max-width: 890px){
+  .center-content {
+    width: 80%;
+  }
 }
 
-.btn-center > a {
-  text-decoration: none;
-  color: black;
-}
+@media screen and (max-width: 700px){
 
-.so-me {
-  width: 2em;
-  margin: 1em;
-  display: inline;
-  
-  
+  #flik {
+    background-color:rgb(238, 238, 238)
+    
+  }
+
+  #flik a {
+    color: black;
+    padding-top: 3px;
+    border: 1px solid black;
+  }
+
+  .scroll {
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    overflow: scroll;
+    }
+
+  .parallax-img {
+    display: none;
+  }
+  .accordion1 {
+    height: 50%;
+  }
+
+  .accordion-item1{
+    
+  }
 }
 
 
