@@ -302,7 +302,7 @@ footer h4 {
   margin-top: 25px;
   width: 400px;
 }
-
+}
 @media screen and (max-width: 1280px) {
   .footer-content {
     width: 300px;
@@ -356,4 +356,3 @@ footer h4 {
 
 
 
-}
