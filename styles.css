@@ -114,7 +114,6 @@ main {
   overflow: hidden;
   list-style: none;
   position: relative;
-
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -o-transition: transform 0.5s;
@@ -353,4 +352,9 @@ footer h4 {
     margin-left: -1em;
     margin-right: 0.25em;
   }
+}
+
+
+
+
 }
