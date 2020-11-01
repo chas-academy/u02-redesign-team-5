@@ -17,15 +17,31 @@
 
 <body id="holygrail-container">
   <header>
-    <img id="logo" src="myh_logga.png" alt="Logo for Myndigheten för yrkeshögskolan" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <img id="logo" src="./images/myh_logga.png" alt="Logo for Myndigheten för yrkeshögskolan" />
+
+    <div id="search">
+      <input type="text" placeholder="Sök.." name="sök" />
+      <button type="submit">Sök</button>
+    </div>
+
+    <div id="x-content">
+      <a href="#">English</a>
+      <a href="#"><i class="fas fa-question-circle"></i>
+        Lättläst</a>
+      <a href="#"><i class="fas fa-text-height"></i>
+        Anpassa</a>
+      <a href="#"><i class="fas fa-user-lock"></i> Mina Sidor</a>
+    </div>
 
     <nav id="nav-bar">
       <ul class="link-list">
         <li><a href="#">Start</a></li>
-        <li><a href="#">Om oss</a></li>
+        <li><a href="om-oss.html">Om oss</a></li>
         <li><a href="#">Verksamhetsområden</a></li>
-        <li><a class="laws" href="laws.html">Lager, Regler & Statistik</a></li>
-        <li><a href="#">Publikationer</a></li>
+        <li><a href="laws.html">Lager, regler & statistik</a></li>
+        <li><a href="publikationer.html">Publikationer</a></li>
         <li><a href="#">Nyhetsrum</a></li>
         <li><a href="#">Kontakt</a></li>
       </ul>
@@ -36,6 +52,7 @@
     <section class="main-header">
       <h1>Lagar, Regler & Statisk</h1>
     </section>
+    <div class="parallax-img">
     <section class="law-box">
       <h5>För alla utbildningsformer finns det lagar och andra bestämmelser som
         måste följas. Det gäller till exempel hur utbildningarna ska utformas,
@@ -49,6 +66,7 @@
 
         Om du anser att det finns brister i en utbildning kan du anmäla det till oss. Anmäl brister i en utbildning.
       </p>
+      </div>
     </section>
 
     <section class="law-aside">
@@ -118,7 +136,35 @@
     </section>
   </main>
   <footer>
-    <!-- Placeholder for footer -->
+    <div class="contact footer-content">
+      <div class="footer-container">
+        <h3>Kontakta oss</h3>
+        <p>Kontaktuppgifter & kontaktalternativ finns här: <a target="__blank"
+            href="/contact-page/contact.html">kontakta oss</a></p>
+        <h4>Ansvarig utgivare</h4>
+        <p>Thomas Persson, generaldirektör MYH</p>
+      </div>
+    </div>
+    <div class="our-news footer-content">
+      <div class="footer-container">
+        <h3>Håll dig informerad</h3>
+        <!-- <h4>Press</h4> -->
+        <p>Presskontaker och pressmeddelanden finns i vårat <a href="#">nyhetsrum</a></p>
+        <a id="youtube" target="__blank" href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"><img
+            id=play-icon src="img/play-img.png" alt="">Youtube</a>
+        <a id="twitter" target="__blank" href="https://twitter.com/yhmyndigheten"><img id="twitter-icon"
+            src="/img/twitter-img.png" alt="">Twitter</a>
+      </div>
+    </div>
+    <div class="our-web footer-content">
+      <div class="footer-container">
+        <h3>Våra webbplatser</h3>
+        <a target="__blank" href="https://www.yrkeshögskolan.se">www.yrkeshögskolan.se</a>
+        <a target="__blank" href="https://www.konstkulturutbildning.se">www.konstkulturutbildning.se</a>
+        <a target="__blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
+        <a target="__blank" href="https://www.seqf.se">www.seqf.se</a>
+      </div>
+    </div>
   </footer>
 </body>
 
