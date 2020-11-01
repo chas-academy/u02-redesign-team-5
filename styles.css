@@ -90,7 +90,7 @@ main {
   width: 100vw;
 }
 
- .carrousel {
+.carrousel {
   background: #ffffff;
   text-align: center;
   padding: 4em 0;
@@ -216,11 +216,19 @@ main {
   background: #2980b9;
 }
 
-@media (max-width: 796px) {}
+@media (max-width: 796px) {
 
  ul>li>a {
   text-decoration: none;
   color: black;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+=======
+=======
+>>>>>>> 65633457f4e7c263057515f6d03a7709d1d4fceb
   border-right: 1px solid black;
   padding-right: 0.7em;
 }

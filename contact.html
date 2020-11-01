@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contact.css">
 
     <link
@@ -21,7 +21,7 @@
     <header>
         <img
           id="logo"
-          src="../myh_logga.png"
+          src="../images/myh_logga.png"
           alt="Logo for Myndigheten för yrkeshögskolan"
         />
   
@@ -46,6 +46,7 @@
 
           
           <h2 tabindex="9" class="contact-h2">Kontakta oss</h2>
+        
           
           <div class="contact-grid">
           <article class="info box">
@@ -125,7 +126,13 @@
         </div>
         </section>
 
-        <form id="contact-form-id" class="contact-form" action="">
+        <div class="side-btn-container">
+          <button class="side-btn">Hitta utbildningar</button>
+          <button class="side-btn">Anmäl brister i en utbildning</button>
+          <button class="side-btn">Jobba hos oss</button>
+        </div>
+
+        <form class="contact-form" action="">
 
           <h3 tabindex="51">Du kan även kontakta oss i formuläret nedan</h3>
 
@@ -154,7 +161,32 @@
       
 
       <footer>
-        <!-- Placeholder for footer -->
+        <div class="contact footer-content">
+          <div class="footer-container">
+          <h3>Kontakta oss</h3>
+          <p>Kontaktuppgifter & kontaktalternativ finns här: <a target="__blank" href="/contact-page/contact.html">kontakta oss</a></p>
+          <h4>Ansvarig utgivare</h4>
+          <p>Thomas Persson, generaldirektör MYH</p>
+        </div>
+        </div>
+        <div class="our-news footer-content">
+          <div class="footer-container">
+          <h3>Håll dig informerad</h3>
+          <!-- <h4>Press</h4> -->
+          <p>Presskontaker och pressmeddelanden finns i vårat <a href="#">nyhetsrum</a></p>
+          <a id="youtube" target="__blank" href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"><img id=play-icon src="img/play-img.png" alt="">Youtube</a>
+          <a id="twitter" target="__blank" href="https://twitter.com/yhmyndigheten"><img id="twitter-icon" src="/img/twitter-img.png" alt="">Twitter</a>
+        </div>
+        </div>
+        <div class="our-web footer-content">
+          <div class="footer-container">
+          <h3>Våra webbplatser</h3>
+          <a target="__blank" href="https://www.yrkeshögskolan.se">www.yrkeshögskolan.se</a>
+          <a target="__blank" href="https://www.konstkulturutbildning.se">www.konstkulturutbildning.se</a>
+          <a target="__blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
+          <a target="__blank" href="https://www.seqf.se">www.seqf.se</a>
+        </div>
+        </div>
       </footer>
     
 </body>
