@@ -183,8 +183,8 @@ input .text {
 
 /* :nth-child(1) */
   {
-  background-color: hsl(200, 80%, 60%);
-  background-image: linear-gradient(-90deg, hsl(200, 80%, 60%), hsl(200, 80%, 45%) 2em, hsl(200, 80%, 60%));
+  background-color: hsl(40, 80%, 40%);
+  background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
 }
 
 .accordion-item1:hover .accordion-item-content1,
@@ -202,8 +202,8 @@ input .text {
 
 /* :nth-child(2) */
   {
-  background-color: hsl(280, 60%, 45%);
-  background-image: linear-gradient(-90deg, hsl(280, 80%, 60%), hsl(280, 60%, 45%) 2em, hsl(280, 80%, 60%));
+  background-color: hsl(40, 80%, 40%);
+  background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
 }
 
 .accordion-item2:hover .accordion-item-content2,
@@ -234,8 +234,8 @@ input .text {
 }
 
 .accordion4 .accordion-item4 {
-  background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
+  background-color:hsl(40, 80%, 40%);
+  background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
 }
 
 .accordion-item4:hover .accordion-item-content4,
