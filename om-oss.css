@@ -199,12 +199,37 @@ input .text {
   .center-content {
     width: 80%;
   }
+}
 
-  
+@media screen and (max-width: 700px){
 
-
+  #flik {
+    background-color:rgb(238, 238, 238)
+    
   }
 
+  #flik a {
+    color: black;
+    padding-top: 3px;
+    border: 1px solid black;
+  }
+
+  .scroll {
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    overflow: scroll;
+    }
+
+  .parallax-img {
+    display: none;
+  }
+  .accordion1 {
+    height: 50%;
+  }
+
+  .accordion-item1{
+    
+  }
 }
 
 
