@@ -1,236 +1,3 @@
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-
-body {
-  font-family: "Roboto", sans-serif;
-
-}
-
-#holygrail-container {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px auto 200px;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
-}
-header {
-  grid-area: header;
-  background-color: rgb(238, 238, 238);
-  top: 0;
-  padding-bottom: 1em;
-  position: sticky;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
-  z-index: 1;
-  height: 240px;
-}
-
-#logo {
-  margin: 30px;
-}
-
-
-#search {
-  right: 40px;
-  top: 10px;
-  position: absolute;
-}
-
-#x-content > a {
-  text-decoration: none;
-  padding: 0.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-}
-
-#x-content {
-  grid-area: header;
-  float: right;
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  margin-right: 30px;
-  height: 80px;
-  background-color: yellow;
-  background-image: linear-gradient(to left, yellow, rgb(238, 238, 238));
-}
-
-nav {
-  grid-area: header;
-  width: 100vw;
-}
-
-
-#nav-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-}
-
-.link-list {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* box-shadow: -1px -5px 10px -5px  gray; */
-  /* padding-top: 1em; */
-  /* margin: 30px; */
-}
-ul > li > a {
-  text-decoration: none;
-  color: black;
-  border-right: 1px solid black;
-  padding-right: 0.7em;
-}
-
-
-
-
-main {
-  grid-area: main;
-  height: 100%;
-  width: 100vw;
-}
-.second-link-list {
-  height: 100%;
-  margin: 30px;
-  list-style: none;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.second-link-list > a {
-  padding: 30px; 
-}
-
-
-
-/* FOOTER */
-footer {
-  grid-area: footer;
-  height: 200px;
-  background-color: rgb(43, 43, 59);
-  
-  width: 100%;
-  display: flex;
-  color: rgb(209, 208, 208);
-  font-size: 14px;
-  justify-content: center;
-}
-.footer-container {
-  margin: 0 1px;
-  display: flex;
-  flex-direction: column;
-}
-footer a{
-  color: rgb(209, 208, 208);
-  font-weight: 600;
-  margin: 3px 0;
-}
-footer a:hover{
-  font-size: 0.9rem;
-}
-footer h3 {
-  margin-bottom: 10px;
-  min-width: 130px;
-}
-footer p{
-  max-width: 130px;
-}
-footer h4 {
-  margin: 10px 1px 0 0;
-}
-#play-icon {
-  width: 20px;
-  height: 20px;  
-  margin-right: 5px;
-}
-#youtube {
-  display: flex;
-  margin-top: 10px;
-}
-#twitter-icon {
-  height: 18px;
-  width: 20px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-#twitter {
-  display: flex;
-}
-.contact {
-  display: flex;
-  flex-direction: column;
-}
-.our-web {
-  display: flex;
-  flex-direction: column;
-}
-.our-news {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-content {
-  margin-top: 25px;
-  width: 400px;
-}
-
-@media screen and (max-width: 1280px) {
-  .footer-content {
-   width: 300px;
-  }
-}
-
-@media screen and (max-width: 890px){
-  
-  footer {
-    font-size: 0.75rem;
-  }
-  .footer-content {
-    width: auto;
-    margin: 15px auto;
-  }
-  .footer-container {
-    height: 220px;
-    width: auto;
-  }
-  .footer p{
-    max-width: 100px;
-  }
-  .contact {
-    min-width: 110px;
-  }
-  .our-news {
-    min-width: 122px;
-  }
-  
-  
-  @media screen and (max-width: 420px) {
-    footer{
-      font-size: 0.7rem;
-    }
-    footer p {
-      max-width: 120px;
-    }
- 
-  }
-}
-
-
-=======
 * {
   margin: 0;
   padding: 0;
@@ -322,7 +89,7 @@ main {
   width: 100vw;
 }
 
- .carrousel {
+.carrousel {
   background: #ffffff;
   text-align: center;
   padding: 4em 0;
@@ -454,14 +221,16 @@ main {
   text-decoration: none;
   color: black;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
+=======
+>>>>>>> 65633457f4e7c263057515f6d03a7709d1d4fceb
   border-right: 1px solid black;
   padding-right: 0.7em;
 }
->>>>>>> 3e5013c0ee056ff9b1aad6b79e254f62807b71bc
 
 .second-link-list {
   height: 100%;
