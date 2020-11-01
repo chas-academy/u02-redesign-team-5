@@ -1,0 +1,217 @@
+
+
+h1 , h2, h3, h4, h5, p {
+  padding: 1rem;
+  
+  font-weight: lighter;
+}
+
+.h1-banderoll {
+  background-color: rgb(238, 238, 238);
+}
+
+.parallax {
+  background-color: rgb(155, 189, 189);
+  width: 100vw;
+  padding: 3rem;
+}
+
+.parallax-img {
+  height: 200px;
+  width: 100vw;
+  background-image: url(./images/flatlay-desk.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -50px 300px;
+  background-size: cover;
+  opacity: 50%;
+}
+
+.center-content {
+  width: 800px;
+  text-align: center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  grid-area: main;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+
+
+.btn-center {
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+  margin: auto;
+  padding: 2em;
+}
+
+.accordion1 .accordion2 .accordion3 .accordion4 .accordion5 .accordion6 .accordion7 .accordion-item,
+.accordion-item1,
+.accordion-item2,
+.accordion-item3,
+.accordion-item4,
+.accordion-item5,
+.accordion-item6,
+.accordion-item7 {
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  border: 1px solid #666;
+  padding: 1em;
+  color: #eee;
+  margin: 25px;
+  width: 220px;
+}
+.accordion-h6 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: ‘Roboto’;
+}
+.accordion-p {
+  font-family: ‘Open Sans’;
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+}
+.accordion-p:hover {
+  font-size: 16px;
+  transition: 0.3s;
+  width: fit-content;
+}
+.accordion-p-q {
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: none;
+  color: black;
+  font-family: ‘Open Sans’;
+}
+input .text {
+  width: 180px;
+  margin-top: 10px;
+}
+.thumbnail {
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+}
+.thumbnail:hover {
+  width: 35px;
+  height: 35px;
+  z-index: 999;
+  transition: 0.3s;
+}
+.accordion1 .accordion-item1, .accordion2 .accordion-item2, .accordion3 .accordion-item3, .accordion4 .accordion-item4, .accordion5 .accordion-item5, .accordion6 .accordion-item6, .accordion7 .accordion-item7
+/* :nth-child(1) */
+  {
+    background-color: hsl(40, 80%, 40%);
+    background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
+}
+.accordion-item1:hover .accordion-item-content1,
+.accordion-item1--default {
+  height: 7em;
+}
+.accordion-item-content1 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+.accordion-item2:hover .accordion-item-content2,
+.accordion-item2--default {
+  height: 7em;
+}
+.accordion-item-content2 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+.accordion-item3:hover .accordion-item-content3,
+.accordion-item3--default {
+  height: 7em;
+}
+.accordion-item-content3 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+.accordion-item4:hover .accordion-item-content4,
+.accordion-item4--default {
+  height: 7em;
+}
+.accordion-item-content4 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+
+.accordion-item5:hover .accordion-item-content5,
+.accordion-item5--default {
+  height: 7em;
+}
+.accordion-item-content5 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+
+.accordion-item6:hover .accordion-item-content6,
+.accordion-item6--default {
+  height: 7em;
+}
+.accordion-item-content6 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+
+.accordion-item7:hover .accordion-item-content7,
+.accordion-item7--default {
+  height: 7em;
+}
+.accordion-item-content7 {
+  height: 0;
+  overflow: hidden;
+  transition: height .25s;
+}
+
+
+
+
+.big-btn {
+  padding: 1rem;
+  margin: 2rem;
+  width: 10rem;
+  background-color: rgb(177, 174, 174);
+  height: 4rem;
+  
+  border-radius: 3px;
+}
+.btn-center a:hover {
+  color: black;
+  font-size: 120%;   
+}
+
+.btn-center > a {
+  text-decoration: none;
+  color: black;
+}
+
+.so-me {
+  width: 2em;
+  margin: 1em;
+  display: inline;
+  
+  
+}
+
+
+
+

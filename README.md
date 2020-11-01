@@ -72,6 +72,7 @@ huvudmeny:
 ##### HTML
 
 ```html
+<<<<<<< HEAD
 <ul class="accordion4">
   <li class="accordion-item4">
     <p class="accordion-h6">Dela denna info 💻</p>
@@ -107,6 +108,29 @@ huvudmeny:
 ##### CSS
 
 ```css
+=======
+    <ul class="accordion1">
+        <li class="accordion-item1">
+          <p class="accordion-h6">Lagar, Regler & Tillsyn 🧑🏽‍⚖️</p>
+          <p class="accordion-h6">⬇</p>
+          <div class="accordion-item-content1">
+            <ul>
+              <hr>
+              <li><a href="#" class="accordion-p">Lagar & förordningar</a></li>
+              <li><a href="#" class="accordion-p">Gällande föreskrifter</a></li>
+              <li><a href="#" class="accordion-p">Allmäna råd</a></li>
+              <li><a href="#" class="accordion-p">Tillsyn</a></li>
+              <li><a href="#" class="accordion-p">Kvalitetsgranskning</a></li>
+              <li><a href="#" class="accordion-p">Anmäl brister i utbildning</a></li>
+            </ul>
+          </div>
+          </a>
+        </li>
+      </ul>
+ ```    
+ ##### CSS
+```css 
+>>>>>>> main
 .accordion1 .accordion2 .accordion3 .accordion4 .accordion-item,
 .accordion-item1,
 .accordion-item2,
@@ -266,94 +290,22 @@ select {
 }
 ```
 
-#### SELECT BUTTONS
-
+#### PARALLAX
 ##### HTML
 
-```HTML
-
-<div class="section">
-          <label for="activity-type"> <h4>Verksamhetsområde</h4> </label>
-          <select id="activity-type" name="activity-type">
-            <option value="">Verksamhetsområde</option>
-            <option value="yrkeshogskolan">Yrkeshögskolan</option>
-            <option value="kulturutbildningar">
-              Konst- och kulturutbildningar
-            </option>
-            <option value="tolkutbildningar">Tolkutbildningar</option>
-            <option value="tillsyn">Utbildningar med endast tillsyn</option>
-            <option value="validering">Validering</option>
-            <option value="seqf">SeQF</option>
-          </select>
-        </div>
 ```
-
+<div class="parallax-img"></div>
+```
 ##### CSS
-
-```CSS
-select,
-#searchPub {
-  width: 170px;
-  padding-left: 5px;
-  font-size: 14px;
-  border: 1px solid #000;
-  height: 34px;
-  background: whitesmoke;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url("images/arrow.png") 96% / 6% no-repeat whitesmoke;
-}
 ```
-
-#### PAGINATION
-
-##### HTML
-
-```HTML
-<div class="center-number">
-        <div class="pagination">
-          <a href="#">&laquo;</a>
-          <a href="#" class="active">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">4</a>
-          <a href="#">5</a>
-          <a href="#">&raquo;</a>
-        </div>
-      </div>
-```
-
-##### CSS
-
-```CSS
-.center-number {
-  text-align: center;
-}
-
-.pagination {
-  display: flex;
-  justify-content: center;
-}
-
-.pagination > a {
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color 0.2s;
-  border: 1px solid #000;
-  margin: 0 4px;
-}
-
-.pagination > a.active {
-  background-color: yellow;
-  border: 2px solid #000;
-}
-
-.pagination > a:hover:not(.active) {
-  background-color: whitesmoke;
+.parallax-img {
+  height: 200px;
+  width: 100vw;
+  background-image: url(./images/flatlay-desk.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -50px 300px;
+  background-size: cover;
+  opacity: 50%;
 }
 ```
