@@ -5,6 +5,13 @@
   overflow-x: hidden;
 }
 
+ul > li > a {
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid black;
+  padding-right: 0.7em;
+}
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -34,7 +41,7 @@ header {
 #logo {
   margin: 30px;
 }
-t 
+ 
 #search {
   right: 40px;
   top: 10px;
@@ -210,29 +217,6 @@ main {
   background: #2980b9;
 }
 
-@media (max-width: 796px) {
-
-ul > li > a {
-  text-decoration: none;
-  color: black;
-  border-right: 1px solid black;
-  padding-right: 0.7em;
-}
-
-.second-link-list {
-  height: 100%;
-  margin: 30px;
-  list-style: none;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.second-link-list > a {
-  padding: 30px;
-  
-}
 
 /* FOOTER */
 footer {
@@ -304,7 +288,7 @@ footer h4 {
   margin-top: 25px;
   width: 400px;
 }
-}
+
 @media screen and (max-width: 1280px) {
   .footer-content {
     width: 300px;

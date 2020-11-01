@@ -15,29 +15,44 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
     rel="stylesheet"
   />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
 
-    <header>
-        <img
-          id="logo"
-          src="../images/myh_logga.png"
-          alt="Logo for Myndigheten för yrkeshögskolan"
-        />
-  
-        <nav id="nav-bar">
-          <ul class="link-list">
-            <li><a tabindex="1" href="#">Start</a></li>
-            <li><a tabindex="2" href="#">Om oss</a></li>
-            <li><a tabindex="3" href="#">Verksamhetsområden</a></li>
-            <li><a tabindex="4" href="#">Lager, regler osv</a></li>
-            <li><a tabindex="5" href="#">Statistik</a></li>
-            <li><a tabindex="6" href="#">Publikationer</a></li>
-            <li><a tabindex="7" href="#">Nyhetsrum</a></li>
-            <li><a tabindex="8" href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <img
+      id="logo"
+      src="images/myh_logga.png"
+      alt="Logo for Myndigheten för yrkeshögskolan"
+    />
+
+    <div id="search">
+      <input type="text" placeholder="Sök.." name="sök">
+      <button type="submit">Sök</button>
+    </div>
+    
+    <div id="x-content">
+      <a href="#">English</a>
+      <a href="#"><i class="fas fa-question-circle"></i>
+        Lättläst</a>
+      <a href="#"><i class="fas fa-text-height"></i>
+        Anpassa</a>
+      <a href="#"><i class="fas fa-user-lock"></i>Mina Sidor</a>
+    </div>
+
+    <nav id="nav-bar">
+      <ul class="link-list">
+        <li><a href="#">Start</a></li>
+        <li id="flik"><a href="om-oss.html">Om oss</a></li>
+        <li><a href="#">Verksamhetsområden</a></li>
+        <li><a href="laws.html">Lager, regler & statistik</a></li>   
+        <li><a href="publikationer.html">Publikationer</a></li>
+        <li><a href="#">Nyhetsrum</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+    
+  </header>
 
       <main>
         <!-- Placeholder for main -->
