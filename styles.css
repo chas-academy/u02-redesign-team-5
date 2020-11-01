@@ -24,6 +24,7 @@ body {
 
 header {
   grid-area: header;
+  height:fit-content;
   background-color: rgb(238, 238, 238);
   top: 0;
   padding-bottom: 1em;
