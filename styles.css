@@ -323,6 +323,39 @@ footer h4 {
   }
 }
 
+@media (max-width: 700px){
+
+  #flik {
+    padding: 0;
+    border-radius: 0;
+
+  }
+
+  ul > li > a {
+    border: none;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
+
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1em;
+
+
+  }
+#x-content {
+  margin-right: 0
+}
+
+#logo {
+    margin: 2em 0 0 1em;
+    width: 20%
+    
+  }
+
+  }
 
 @media (max-width: 480px) {
   .carrousel li p {
