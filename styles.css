@@ -328,13 +328,11 @@ footer h4 {
   #flik {
     padding: 0;
     border-radius: 0;
-
   }
 
   ul > li > a {
     border: none;
     font-size: 1.2em;
-    padding-bottom: 10px;
   }
 
   .link-list {
