@@ -1,0 +1,110 @@
+
+
+.topinfo{
+  background-color: white;
+  width: 800px;
+  padding-top: 40px;
+  margin: auto;
+}
+/*.info{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}*/
+
+.search{
+  padding: 20px;
+  font-weight: bold;
+}
+
+label{
+  padding: 10px;
+}
+.column {
+  width: 800px;
+  padding: 20px;
+  background-color: rgb(238, 238, 238)
+}
+
+#nyheter{
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.row{
+   margin: auto;
+   width: 800px; 
+   background-color: rgb(238, 238, 238)
+}
+
+#calender, #press{
+  margin: auto;
+  width: 800px; 
+  background-color: rgb(238, 238, 238)
+}
+
+
+
+#dropdown {
+  list-style-type: none;
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*li {
+  display: inline-flex;
+  text-align: center;
+  font-family: "Roboto", sans-serif; 
+  
+}*/
+
+.search{
+  display: inline-block;
+}
+
+.navbar{
+  margin: auto;
+  width: 800px;
+  color: black;
+  background-color: hsl(40, 80%, 60%);
+}
+
+.infobar{
+  margin: auto;
+  width: 800px;
+  color: black;
+  background-color: hsl(80, 40%, 40%);
+}
+
+.video{
+  height: 125px;
+  width: 125px;
+}
+#dropdown{
+  width: 160px;
+  padding: 10px; 
+  font-family: "Roboto", sans-serif; 
+  outline: none;
+}
+
+h1{
+  font-size: 30pt;
+  padding: 15px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h2{
+  font-size: 16px;
+}
+
