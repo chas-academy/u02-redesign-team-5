@@ -1,6 +1,11 @@
 
 
-h1 , h2, h3, h4, h5, p {
+#main-om h1, 
+#main-om h2, 
+#main-om h3, 
+#main-om h4, 
+#main-om h5, 
+#main-om p{
   padding: 1rem;
   
   font-weight: lighter;
