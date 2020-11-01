@@ -1,6 +1,10 @@
 main {
   width: 800px;
   margin: auto;
+  overflow: hidden;
+}
+#holygrail-container {
+  height: auto;
 }
 
 .pub-container {
@@ -8,6 +12,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2em;
 }
 
 h1 {
@@ -51,7 +56,6 @@ select {
   height: 180px;
   width: 800px;
   border: 1px solid black;
-  margin: 1em;
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -129,13 +133,13 @@ h2 > a:hover,
 }
 
 .center-number {
-  margin-top: 3em;
   text-align: center;
 }
 
 .pagination {
   display: flex;
   justify-content: center;
+  margin: 2em 0em;
 }
 
 .pagination > a {
