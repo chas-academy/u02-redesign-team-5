@@ -1,15 +1,25 @@
 
+.parallax {
+  /* The image used */
+  background-image: url("imagesnh/taras-shypka-iFSvn82XfGo-unsplash.jpg");
+  /* Set a specific height */
+  height: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 
 .topinfo{
   background-color: white;
   width: 800px;
-  padding-top: 40px;
+  padding: 20px;
   margin: auto;
 }
-/*.info{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}*/
 
 .search{
   padding: 20px;
@@ -25,6 +35,10 @@ label{
   background-color: rgb(238, 238, 238)
 }
 
+p{
+  padding-right: 20px;
+}
+
 #nyheter{
   padding: 20px;
 }
@@ -38,18 +52,23 @@ label{
 
 .row{
    margin: auto;
+   padding: 20px;
    width: 800px; 
    background-color: rgb(238, 238, 238)
 }
 
-#calender, #press{
+#press{
   margin: auto;
+  padding: 20px;
   width: 800px; 
   background-color: rgb(238, 238, 238)
 }
 
-
-
+#calender{
+  margin: auto;
+  width: 800px; 
+  background-color: rgb(238, 238, 238)
+}
 #dropdown {
   list-style-type: none;
   background: whitesmoke;
@@ -57,13 +76,6 @@ label{
   padding: 0;
   overflow: hidden;
 }
-
-/*li {
-  display: inline-flex;
-  text-align: center;
-  font-family: "Roboto", sans-serif; 
-  
-}*/
 
 .search{
   display: inline-block;
@@ -78,11 +90,23 @@ label{
 
 .infobar{
   margin: auto;
+  padding: 10px;
   width: 800px;
   color: black;
   background-color: hsl(80, 40%, 40%);
 }
 
+.calenderbar{
+  margin: auto;
+  padding: 10px;
+  width: 800px;
+  color: black;
+  background-color: hsl(80, 40%, 40%);
+
+}
+.calenderinfo{
+  padding: 10px;
+}
 .video{
   height: 125px;
   width: 125px;
@@ -99,12 +123,18 @@ h1{
   padding: 15px;
 }
 
-h3{
-  font-weight: bold;
+h2{
   font-size: 16px;
 }
 
-h2{
-  font-size: 16px;
+a{
+  color: black;
+  padding: 10px;
+}
+
+@media only screens and (max-width: 414px){
+  .footer{
+    font-size: 0.8em;
+  }
 }
 
