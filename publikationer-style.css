@@ -16,6 +16,17 @@ main {
   gap: 2em;
 }
 
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
+  background-color: rgb(43, 43, 59);
+  border-radius: 1em 0 0 0;
+  
+}
+
 h1 {
   font-size: 30pt;
   padding: 0.5em 0;

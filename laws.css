@@ -11,11 +11,15 @@
   opacity: 50%;
 }
 
-#law-flik {
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
   background-color: rgb(43, 43, 59);
-  color: #ffff;
-  padding: 20px;
-  border-top-left-radius: 50px 30px;
+  border-radius: 1em 0 0 0;
+  
 }
 
 

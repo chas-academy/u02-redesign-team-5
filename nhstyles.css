@@ -14,6 +14,18 @@
 }
 
 
+
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
+  background-color: rgb(43, 43, 59);
+  border-radius: 1em 0 0 0;
+  
+}
+
 .topinfo{
   background-color: white;
   width: 800px;
@@ -131,6 +143,7 @@ a{
   color: black;
   padding: 10px;
 }
+
 
 @media only screens and (max-width: 414px){
   .footer{

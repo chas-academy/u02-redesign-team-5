@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-h1 , h2, h3, h4, h5, p {
-  padding: 1rem;
-  
-  font-weight: lighter;
-=======
 
 
 #main-om h1, 
@@ -26,7 +20,6 @@ h1 , h2, h3, h4, h5, p {
   background-color: rgb(43, 43, 59);
   border-radius: 1em 0 0 0;
   
->>>>>>> c7cde69b9e0980f7f09227a90188dab6ade0b458
 }
 
 .h1-banderoll {
@@ -60,13 +53,6 @@ h1 , h2, h3, h4, h5, p {
   margin: auto;
 }
 
-<<<<<<< HEAD
-
-
-
-
-=======
->>>>>>> c7cde69b9e0980f7f09227a90188dab6ade0b458
 .btn-center {
   grid-area: main;
   display: flex;
@@ -239,10 +225,6 @@ input .text {
   }
   .accordion1 {
     height: 50%;
-  }
-
-  .accordion-item1{
-    
   }
 }
 
