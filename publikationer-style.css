@@ -156,7 +156,7 @@ h2 > a:hover,
   background-color: whitesmoke;
 }
 
-@media (max-width: 800px) {
+@media screen and (min-width: 501px) and (max-width: 900px) {
   main {
     width: 600px;
     margin: auto;
@@ -194,19 +194,12 @@ h2 > a:hover,
   .text-container {
     display: flex;
     align-items: center;
+    font-size: 1.3em;
   }
 
   .description-text,
   .publish-date {
     display: none;
-  }
-
-  .publish-date {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    border: 2px solid blue;
   }
 
   .hover-box {
@@ -219,5 +212,70 @@ h2 > a:hover,
 
   .pagination > a {
     padding: 12px 25px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  main {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+
+  .search-container {
+    /* width: 50%; */
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  h4 {
+    padding-top: 1em;
+  }
+
+  .pub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .push-box {
+    width: 300px;
+    height: 100px;
+  }
+
+  .text-container {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  .description-text,
+  .publish-date {
+    display: none;
+  }
+
+  .hover-box {
+    float: right;
+    /*    display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    width: 50px;
+    height: 100%;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pagination > a {
+    padding: 12px 23px;
   }
 }
