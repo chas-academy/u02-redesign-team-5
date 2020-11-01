@@ -220,15 +220,9 @@ main {
  ul>li>a {
   text-decoration: none;
   color: black;
-<<<<<<< HEAD
-}
-
-
-=======
   border-right: 1px solid black;
   padding-right: 0.7em;
 }
->>>>>>> 3e5013c0ee056ff9b1aad6b79e254f62807b71bc
 
 .second-link-list {
   height: 100%;
