@@ -1,15 +1,33 @@
 
 
-h1 , h2, h3, h4, h5, p {
+#main-om h1, 
+#main-om h2, 
+#main-om h3, 
+#main-om h4, 
+#main-om h5, 
+#main-om p{
   padding: 1rem;
+  
+  font-weight: lighter;
 }
 
-#h1-intro {
-  background-color: rgb(158, 182, 158);
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
+  background-color: rgb(43, 43, 59);
+  border-radius: 1em 0 0 0;
+  
+}
+
+.h1-banderoll {
+  background-color: rgb(238, 238, 238);
 }
 
 .parallax {
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(155, 189, 189);
   width: 100vw;
   padding: 3rem;
 }
@@ -35,11 +53,6 @@ h1 , h2, h3, h4, h5, p {
   margin: auto;
 }
 
-#post-it {
-  background-color:rgb(158, 182, 158);
-  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
-}
-
 .btn-center {
   grid-area: main;
   display: flex;
@@ -49,7 +62,6 @@ h1 , h2, h3, h4, h5, p {
   margin: auto;
   padding: 2em;
 }
-
 
 .accordion1 .accordion2 .accordion3 .accordion4 .accordion5 .accordion6 .accordion7 .accordion-item,
 .accordion-item1,
@@ -109,11 +121,11 @@ input .text {
   z-index: 999;
   transition: 0.3s;
 }
-.accordion1 .accordion-item1
+.accordion1 .accordion-item1, .accordion2 .accordion-item2, .accordion3 .accordion-item3, .accordion4 .accordion-item4, .accordion5 .accordion-item5, .accordion6 .accordion-item6, .accordion7 .accordion-item7
 /* :nth-child(1) */
   {
-  background-color: hsl(200, 80%, 60%);
-  background-image: linear-gradient(-90deg, hsl(200, 80%, 60%), hsl(200, 80%, 45%) 2em, hsl(200, 80%, 60%));
+    background-color: hsl(40, 80%, 40%);
+    background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
 }
 .accordion-item1:hover .accordion-item-content1,
 .accordion-item1--default {
@@ -124,12 +136,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-.accordion2 .accordion-item2
-/* :nth-child(2) */
-  {
-  background-color: hsl(280, 60%, 45%);
-  background-image: linear-gradient(-90deg, hsl(280, 80%, 60%), hsl(280, 60%, 45%) 2em, hsl(280, 80%, 60%));
-}
 .accordion-item2:hover .accordion-item-content2,
 .accordion-item2--default {
   height: 7em;
@@ -139,10 +145,6 @@ input .text {
   overflow: hidden;
   transition: height .25s;
 }
-.accordion3 .accordion-item3 {
-  background-color: hsl(40, 80%, 40%);
-  background-image: linear-gradient(-90deg, hsl(40, 80%, 60%), hsl(40, 80%, 45%) 2em, hsl(40, 80%, 60%));
-}
 .accordion-item3:hover .accordion-item-content3,
 .accordion-item3--default {
   height: 7em;
@@ -151,10 +153,6 @@ input .text {
   height: 0;
   overflow: hidden;
   transition: height .25s;
-}
-.accordion4 .accordion-item4 {
-  background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
 }
 .accordion-item4:hover .accordion-item-content4,
 .accordion-item4--default {
@@ -166,10 +164,6 @@ input .text {
   transition: height .25s;
 }
 
-.accordion5 .accordion-item5 {
-  background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
-}
 .accordion-item5:hover .accordion-item-content5,
 .accordion-item5--default {
   height: 7em;
@@ -180,10 +174,6 @@ input .text {
   transition: height .25s;
 }
 
-.accordion6 .accordion-item6 {
-  background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
-}
 .accordion-item6:hover .accordion-item-content6,
 .accordion-item6--default {
   height: 7em;
@@ -194,10 +184,6 @@ input .text {
   transition: height .25s;
 }
 
-.accordion7 .accordion-item7 {
-  background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
-}
 .accordion-item7:hover .accordion-item-content7,
 .accordion-item7--default {
   height: 7em;
@@ -209,33 +195,41 @@ input .text {
 }
 
 
-
-
-.big-btn {
-  padding: 1rem;
-  margin: 2rem;
-  width: 10rem;
-  background-color: rgb(177, 174, 174);
-  height: 4rem;
-  
-  border-radius: 3px;
-}
-.btn-center a:hover {
-  color: black;
-  font-size: 120%;   
+@media screen and (max-width: 890px){
+  .center-content {
+    width: 80%;
+  }
 }
 
-.btn-center > a {
-  text-decoration: none;
-  color: black;
-}
+@media screen and (max-width: 700px){
 
-.so-me {
-  width: 2em;
-  margin: 1em;
-  display: inline;
-  
-  
+  #flik {
+    background-color:rgb(238, 238, 238)
+    
+  }
+
+  #flik a {
+    color: black;
+    padding-top: 3px;
+    border: 1px solid black;
+  }
+
+  .scroll {
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    overflow: scroll;
+    }
+
+  .parallax-img {
+    display: none;
+  }
+  .accordion1 {
+    height: 50%;
+  }
+
+  .accordion-item1{
+    
+  }
 }
 
 

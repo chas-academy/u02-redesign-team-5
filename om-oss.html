@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="om-oss.css" />
         <link rel="stylesheet" href="styles.css" />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
@@ -15,91 +17,207 @@
         />
 
         <title>Myh - Om Oss</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        
     </head>
 
-  <body id="holygrail-container">
+  <body id="holygrail-container-om">
     <header>
       <img
         id="logo"
-        src="myh_logga.png"
+        src="images/myh_logga.png"
         alt="Logo for Myndigheten för yrkeshögskolan"
       />
 
+      <div id="search">
+        <input type="text" placeholder="Sök.." name="sök">
+        <button type="submit">Sök</button>
+      </div>
+      
+      <div id="x-content">
+        <a href="#">English</a>
+        <a href="#"><i class="fas fa-question-circle"></i>
+          Lättläst</a>
+        <a href="#"><i class="fas fa-text-height"></i>
+          Anpassa</a>
+        <a href="#"><i class="fas fa-user-lock"></i>Mina Sidor</a>
+      </div>
+
       <nav id="nav-bar">
-        <ul class=-btn-list">
+        <ul class="link-list">
           <li><a href="#">Start</a></li>
-          <li><a href="#">Om oss</a></li>
+          <li id="flik"><a href="om-oss.html">Om oss</a></li>
           <li><a href="#">Verksamhetsområden</a></li>
-          <li><a href="#">Lager, regler osv</a></li>
-          <li><a href="#">Statistik</a></li>
-          <li><a href="#">Publikationer</a></li>
+          <li><a href="laws.html">Lager, regler & statistik</a></li>   
+          <li><a href="publikationer.html">Publikationer</a></li>
           <li><a href="#">Nyhetsrum</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
+      
     </header>
-    <main>
-      <!-- Main content here -->
+    <main id="main-om">
+      <div class="parallax">
+        <section class="center-content">
+            <h1 class="h1-banderoll">Om Oss</h1>
+            <div  class="scroll">
+              <h4>Myndigheten för yrkeshögskolans huvuduppdrag är att ansvara för frågor som rör yrkeshögskolan i Sverige och verka för att utbildningarna tillgodoser arbetslivets behov av kompetens. </h4>
+              <p>Vi analyserar arbetsmarknadens behov av utbildningar inom yrkeshögskolan, beslutar vilka utbildningar som ska ingå i yrkeshögskolan och beviljar statliga medel till utbildningsanordnarna. Vi främjar även validering i utbildningarna.
 
-        <section>
-            <h1>Om Oss</h1>
-            <h2>Myndigheten för yrkeshögskolans huvuduppdrag är att ansvara för frågor som rör yrkeshögskolan i Sverige och verka för att utbildningarna tillgodoser arbetslivets behov av kompetens. </h2>
-            <p>Vi analyserar arbetsmarknadens behov av utbildningar inom yrkeshögskolan, beslutar vilka utbildningar som ska ingå i yrkeshögskolan och beviljar statliga medel till utbildningsanordnarna. Vi främjar även validering i utbildningarna.
+              Vi ansvarar också för frågor som rör vissa utbildningar som ligger utanför yrkeshögskolan - eftergymnasiala konst- och kulturutbildningar som bedrivs av fristående skolor samt tolkutbildningar inom folkbildningen.
+              
+              Myndigheten utövar tillsyn och hanterar klagomål på de utbildningar som ligger inom vårt ansvarsområde. Vi granskar även utbildningarnas kvalitet, framställer statistik och följer upp utbildningars resultat.
+              
+              Vi är också nationell samordningspunkt för EQF (European Qualifications Framework) som ska göra det lättare att jämföra utbildnings- och yrkeskvalifikationer inom EU.</p>
+            </div>
+          
 
-            Vi ansvarar också för frågor som rör vissa utbildningar som ligger utanför yrkeshögskolan - eftergymnasiala konst- och kulturutbildningar som bedrivs av fristående skolor samt tolkutbildningar inom folkbildningen.
-            
-            Myndigheten utövar tillsyn och hanterar klagomål på de utbildningar som ligger inom vårt ansvarsområde. Vi granskar även utbildningarnas kvalitet, framställer statistik och följer upp utbildningars resultat.
-            
-            Vi är också nationell samordningspunkt för EQF (European Qualifications Framework) som ska göra det lättare att jämföra utbildnings- och yrkeskvalifikationer inom EU.
-            
-            <a href="#">Läs mer om våra verksamhetsområden</a></p>
-
-            <p>Här kommer eventuellt en bild</p>
         </section>
+      </div>
 
-        <div>
-            <a class="big-btn" href="#">GD har ordet</a>
-            <a class="big-btn" href="#">Hitta utbildningar</a>
+      <div class="parallax-img">
+      </div>
+
+      <div class="btn-center">
+        <ul class="accordion1">
+          <li class="accordion-item1">
+            <p class="accordion-h6">Organisation</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content1">
+              <ul>
+                <li><a href="#" class="accordion-p">Generaldirektören(GD)</a></li>
+                <li><a href="#" class="accordion-p">Enheter</a></li>
+                <li><a href="#" class="accordion-p">Insynsrådet</a></li>
+                <li><a href="#" class="accordion-p">Yrkeshögskolans arbetsmarknadsråd</a></li>
+                <li><a href="#" class="accordion-p">Rådet för högskoleförberedande konstnärliga utbildningar</a></li>
+                <li><a href="#" class="accordion-p">Rådet för den nationella referensramen för kvalifikationer</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="accordion2">
+          <li class="accordion-item2">
+            <p class="accordion-h6">Så styrs myndigheten</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content2">
+              <ul>
+                <li><a href="#" class="accordion-p">Instruktion</a></li>
+                <li><a href="#" class="accordion-p">Regleringsbrev</a></li>
+                <li><a href="#" class="accordion-p">Övriga regeringsuppdrag</a></li>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        
+        <ul class="accordion3">
+          <li class="accordion-item3">
+            <p class="accordion-h6">Jobba hos oss</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content3">
+              <ul>
+                <li><a href="#" class="accordion-p">Lediga jobb</a></li>
+                <li><a href="#" class="accordion-p">Förmåner och villkor</a></li>
+                <li><a href="#" class="accordion-p">Intervjuer med medarbetare</a></li>
+                <li><a href="#" class="accordion-p">Våra lokaler</a></li>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="accordion4">
+          <li class="accordion-item4">
+            <p class="accordion-h6">Redovisning av verksamheten</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content4">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="accordion5">
+          <li class="accordion-item5">
+            <p class="accordion-h6">Remissvar och yttranden</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content5">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="accordion6">
+          <li class="accordion-item6">
+            <p class="accordion-h6">Fakturera oss</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content6">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="accordion7">
+          <li class="accordion-item7">
+            <p class="accordion-h6">Behandling av personuppgifter</p>
+            <p class="accordion-h6">⬇</p>
+            <div class="accordion-item-content7">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+          
+        <div class="parallax">
+          <section id="post-it" class="center-content">
+              <h2 class="h1-banderoll">Yrkes-SM, EM och VM</h2>
+              <p>Som ansvarig myndighet för yrkeshögskoleutbildningarna i Sverige har vi ett naturligt engagemang i de yrkestävlingar som bedrivs.</p>
+
+              <a href="#">Läs mer om MYH:s roll i yrkestävlingarna</a>
+          </section>
         </div>
-
-        <section>
-            <h2>Mer Om Oss</h2>
-            <a class="int-btn"href="#">Organisation</a>
-            <a class="int-btn"href="#">Så styrs myndigheten</a>
-            <a class="int-btn"href="#">Redovisning av verksamheten</a>
-            <a class="int-btn"href="#">MYH fyller 10 år</a>
-            <a class="int-btn"href="#">Remissvar & yttranden</a>
-            <a class="int-btn"href="#">Pågående upphandlingar</a>
-            <a class="int-btn"href="#">Fakturera oss</a>
-            <a class="int-btn"href="#">Jobba hos oss</a>
-            <a class="int-btn"href="#">Behandling av personuppgifter</a>
-            <a class="int-btn"href="#"></a>
-        </section>
-
-        <section>
-            <h2>Yrkes-SM, EM och VM</h2>
-            <p>Som ansvarig myndighet för yrkeshögskoleutbildningarna i Sverige har vi ett naturligt engagemang i de yrkestävlingar som bedrivs.
-
-            <a href="#">Läs mer om MYH:s roll i yrkestävlingarna</a></p>
-        </section>
-
-        <section>
-            <h2>Dela</h2>
-            <a href="#">FB</a>
-            <a href="#">Twitter</a>
-            <a href="#">Mail</a>
-        </section>
+        
+      
     </main>
-    <aside>
-      <ul class="second-btn-list">
-        <li><a href="#">Länk 1</a></li>
-        <li><a href="#">Länk 2</a></li>
-        <li><a href="#">Länk 3</a></li>
-        <li><a href="#">Länk 4</a></li>
-      </ul>
-    </aside>
+    
     <footer>
-      <!-- Placeholder for footer -->
+      <div class="contact footer-content">
+        <div class="footer-container">
+        <h3>Kontakta oss</h3>
+        <p>Kontaktuppgifter & kontaktalternativ finns här: <a target="__blank" href="/contact-page/contact.html">kontakta oss</a></p>
+        <h4>Ansvarig utgivare</h4>
+        <p>Thomas Persson, generaldirektör MYH</p>
+      </div>
+      </div>
+      <div class="our-news footer-content">
+        <div class="footer-container">
+        <h3>Håll dig informerad</h3>
+        <!-- <h4>Press</h4> -->
+        <p>Presskontaker och pressmeddelanden finns i vårat <a href="#">nyhetsrum</a></p>
+        <a id="youtube" target="__blank" href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"><img id=play-icon src="img/play-img.png" alt="">Youtube</a>
+        <a id="twitter" target="__blank" href="https://twitter.com/yhmyndigheten"><img id="twitter-icon" src="/img/twitter-img.png" alt="">Twitter</a>
+      </div>
+      </div>
+      <div class="our-web footer-content">
+        <div class="footer-container">
+        <h3>Våra webbplatser</h3>
+        <a target="__blank" href="https://www.yrkeshögskolan.se">www.yrkeshögskolan.se</a>
+        <a target="__blank" href="https://www.konstkulturutbildning.se">www.konstkulturutbildning.se</a>
+        <a target="__blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
+        <a target="__blank" href="https://www.seqf.se">www.seqf.se</a>
+      </div>
+      </div>
     </footer>
   </body>
 </html>
