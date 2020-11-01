@@ -11,6 +11,17 @@
   font-weight: lighter;
 }
 
+#flik a{
+  color: rgb(238, 238, 238);
+}
+
+#flik {
+  padding: 1em 1em 0 1em;
+  background-color: rgb(43, 43, 59);
+  border-radius: 1em 0 0 0;
+  
+}
+
 .h1-banderoll {
   background-color: rgb(238, 238, 238);
 }
@@ -188,6 +199,12 @@ input .text {
   .center-content {
     width: 80%;
   }
+
+  
+
+
+  }
+
 }
 
 
