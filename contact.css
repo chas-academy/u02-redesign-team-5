@@ -1,0 +1,294 @@
+html {
+    overflow-x: hidden;
+}
+
+#flik a{
+    color: rgb(238, 238, 238);
+  }
+  
+  #flik {
+    padding: 1em 1em 0 1em;
+    background-color: rgb(43, 43, 59);
+    border-radius: 1em 0 0 0;
+    
+  }
+
+  
+header {
+    position: sticky;   
+    background-color: white;
+    top: 0;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: auto;
+    width: 800px;
+    margin: auto;
+}
+
+.contact-h2{
+    margin: 100px auto;
+    font-size: 2rem;
+    height: 50px;
+    width: 250px;    
+}
+
+.box {   
+    width: 220px;
+    height: 460px;
+    margin: 20px auto;
+    border-top: 5px solid hsl(40, 80%, 40%);
+    padding: 3px;
+}
+
+.info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.news {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.billing {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.email-tele {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.visit-adress {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.post-adress {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.box a {
+    text-decoration: underline;
+    color: black;
+}
+.box a:hover {
+    font-size: 1.04rem;
+}
+
+.box h3 {
+    margin: 5px 0px;
+    font-size: 1.3rem;
+}
+
+.box h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;   
+}
+
+.box p{
+    line-height: 20px;
+    max-width: 210px;
+}
+
+/* Middle Buttons */
+.side-btn-container {
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.side-btn {
+    width: 350px;
+    height: 80px;
+    background-color:rgb(155, 189, 189);
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+}
+.side-btn:hover {
+    background-color: rgb(125, 153, 153);
+    font-size: 1.04rem;
+    box-shadow: gray 0 0 3px;    
+}
+.side-btn:focus {
+    background-color: rgb(125, 153, 153);
+    font-size: 1.04rem;
+    box-shadow: gray 0 0 3px;
+}
+
+
+/* Contact form styles */
+.contact-form {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-form {   
+    padding: 20px;
+    width: 60%;
+    margin: 100px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.contact-form label {
+    margin-top: 15px;
+}
+
+.contact-form input {
+    height: 30px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.contact-form input:focus {
+    border-radius: 25;
+    outline: none;
+    background-color: rgb(226, 226, 226);
+}
+.contact-form input:hover {
+    background-color: rgb(226, 226, 226);
+}
+.required:after {
+    content:"*";
+    color: red;
+  }
+
+
+.contact-form .btn {
+    background-color: rgb(155, 189, 189);
+    border-radius: 25px;
+    margin: auto;
+    width: 50%;
+    min-width: 200px;
+    margin-top: 20px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.contact-form .btn:hover {
+    background-color: rgb(125, 153, 153);
+    height: 52px;
+    width: 51%;
+}
+
+.contact-form .btn:focus {
+    outline: none;
+    background-color: rgb(40, 184, 172);
+    height: 52px;
+    width: 51%;
+}
+
+.contact-form textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.contact-form textarea:focus {
+    outline: none;
+}
+.contact-form h3 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto; 
+        width: 600px;
+    }    
+    .info {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .news {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .billing {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .email-tele {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .visit-adress {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .post-adress {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .side-btn-container {
+        flex-direction: column;
+        margin-top: 40px;   
+        width: 100%;     
+    }
+    
+    .side-btn {
+        width: 350px;
+        margin: 20px auto;
+    }
+}
+
+
+
+@media screen and (max-width: 890px) {
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto; 
+        margin: auto;
+        width: 100vw;
+    } 
+    .box {
+        height: auto;
+        width: 250px;
+    }
+    .info {
+        grid-column: 1/2; 
+        grid-row: 1/2;
+    }
+    .news {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .billing {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .email-tele {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .visit-adress {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .post-adress {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+}

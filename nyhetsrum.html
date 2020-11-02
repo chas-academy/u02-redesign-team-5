@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="nhstyles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Myh - Redesign</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+  </head>
+
+  <body id="holygrail-container">
+    <header>
+      <img
+        id="logo"
+        src="./images/myh_logga.png"
+        alt="Logo for Myndigheten för yrkeshögskolan"
+      />
+
+      <div id="search">
+        <input type="text" placeholder="Sök.." name="sök" />
+        <button type="submit">Sök</button>
+      </div>
+
+      <div id="x-content">
+        <a href="#">English</a>
+        <a href="#"><i class="fas fa-question-circle"></i>
+          Lättläst</a>
+        <a href="#"><i class="fas fa-text-height"></i>
+          Anpassa</a>
+        <a href="#"><i class="fas fa-user-lock"></i>Mina Sidor</a>
+      </div>
+
+      <nav id="nav-bar">
+        <ul class="link-list">
+          <li><a href="#">Start</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="verksamhetsomraden.html">Verksamhetsområden</a></li>
+          <li><a href="laws.html">Lager, regler & statistik</a></li>   
+          <li><a href="publikationer.html">Publikationer</a></li>
+          <li id="flik"><a href="nyhetsrum.html">Nyhetsrum</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="parallax">
+        <div class="topinfo">
+            <h1>Nyhetsrum</h1>
+                <p>Välkommen till vårt nyhetsrum. Här hittar du nyheter och pressmeddelanden, bilder, filmer, kalendarium och
+                annan aktuell information.</p>
+        </div>
+        <div class="navbar" id="news">
+            <h1>Nyheter</h1>
+        </div>
+        <div class="infobar">
+                <div class="search">
+                    <label for="verksamhet">Verksamhetsområde:</label>
+                        <select id="dropdown" name="role" class="form-control" required>
+                            <option value="alla">Alla områden</option>
+                            <option value="yh">Yrkeshögskolan</option>
+                            <option value="konstkultur">Konst- och kulturutbildningar</option>
+                            <option value="tolk">Tolkutbildningar</option>
+                            <option value="tillsyn">Utbildningar med endast tillsyn</option>
+                            <option value="validering">Validering</option>
+                            <option value="seqf">SeQF</option>
+                        </select>
+                </div>   
+                <div class="search">
+                    <label for="">År:</label>
+                        <select id="dropdown" name="role" class="form-control" required>
+                            <option value="alla">Alla år</option>
+                            <option value="year20">2020</option>
+                            <option value="year19">2019</option>
+                            <option value="year18">2018</option>
+                            <option value="year17">2017</option>
+                        </select>
+                </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img id="nyheter" src="/imagesnh/aktuellt1.png" alt="laptop"/>
+                <a href="">
+                    <h2>Nu kan du administrera korta yh-utbildningar i Mina sidor</h2>
+                </a>
+                <p>
+                    Från och med den 16 oktober är det möjligt att sköta större delen av administrationen av
+                    utbildningen och de studerande i Mina sidor.</p>
+            </div>
+            <div class="column">
+                <img id="nyheter" src="/imagesnh/aktuellt2.jpg" alt="tjänstemän" />
+                <a href=""> 
+                    <h2>Yrkeshögskola – det populäraste alternativet för tjänstemän vid omställning</h2>
+                </a>
+                <p>
+                    När förutsättningarna på arbetsmarknaden förändras i pandemins spår blir omställning allt viktigare.
+                    Omställningsaktören TRR är en av de aktörer som stöttar tjänstemän i privat sektor när de förlorat jobbet. I förra
+                    veckan släppte de nya siffror som visar att yrkeshögskolan är den populäraste utbildningsformen för tjänstemän som ska
+                    ställa om.</p>
+            </div>
+            <div class="column">
+                <img id="nyheter" src="/imagesnh/aktuellt3.jpg" alt="färgpapper"/>
+                <a href="">
+                    <h2>Webbinarium: Metodik för distansundervisning – så här klarar du det (och lite till)!</h2>
+                </a>
+                <p>
+                    Jag kommer aldrig fixa att göra en lika bra prestation på distans som framför mina studerande i
+                    klassrummet! Det uttalandet hördes från många lärare under våren. I det här webbinariet undersöker vi hur digitala
+                    verktyg kan stödja lärandet och hur vi skapar en interaktivitet mellan de studerande när vi inte ses på plats.</p>
+            </div>
+            <div class="column">
+                <img id="nyheter" src="imagesnh/aktuellt4.jpg" alt="konferens"/>
+                <a href="">
+                    <h2>Ansök om statsbidrag för utbildning till teckenspråks- och dövblindtolk samt skrivtolk</h2>
+                </a>
+                <p> Nu kan folkhögskolor ansöka om statsbidrag för teckenspråks- och dövblindtolkutbildningen samt
+                    skrivtolkutbildningen. Ansökan är öppen till och med den 19 november 2020.</p>
+                    <a href="#" style=float:right;>
+                        <p>Tidigare aktuella nyheter</p>
+                    </a>
+            </div>
+        </div>    
+
+        <div class="navbar">
+            <h1>Filmer</h1>
+        </div>
+
+        <div class="infobar">
+            <p>Här kan du se filmer om oss och om yrkeshögskolan. De får användas för redaktionell publicering 
+            eller i syfte att informera om vår verksamhet. Filmerna finns även på Youtube.</p>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div>
+                    <embed class="video" type="video/mp4" src="imagesnh/coverr-girl-in-the-computer-7195.mp4" aria-label="Tjej som skriver på en lap-top"/>
+                </div>
+                <a href="#">
+                    <h2>Detta är yrkeshögskolan!</h2>
+                </a>        
+                <p>Kort om hur YH funkar, vilka utbildningar som finns, hur de är upplagda, vad LIA innebär, hur man söker, csn mm.                    
+                   Bra som introduktion och tänkt att användas bland annat av studie- och yrkesvägledare.</p>
+            </div>
+            <div class="column">
+                <div>
+                    <embed class="video" type="video/mp4" src="imagesnh/coverr-girl-in-the-computer-7195.mp4" aria-label="Tjej som skriver på en lap-top"/>
+                </div>
+                 <a href="#">
+                    <h2>Yrkeshögskolan – För dig som är abetsgivare</h2>
+                </a>
+                <p>
+                    Yrkeshögskolan ger dig som arbetsgivare skräddarsydd, eftergymnasial kompetens. Kort om hur det funkar, hur du kan
+                    påverka utbildningarna och testa nya framtida medarbetare.</p>
+            </div>
+            <div class="column">
+                <div>
+                    <embed class="video" type="video/mp4" src="imagesnh/coverr-girl-in-the-computer-7195.mp4" aria-label="Tjej som skriver på en lap-top"/>
+                </div>
+                <a href="#">
+                    <h2>När drömmen blir verklighet</h2>
+                </a>
+                <p>
+                    Utbildningarna inom yrkeshögskolan är en mycket bra inkörsport till arbetslivet. Utbildningarna är anpassade efter
+                    arbetsmarkandens behov och det är därför ofta lätt att få jobb direkt efter utbildningen.</p>
+            </div>
+            <div class="column">
+                <div>
+                    <embed class="video" type="video/mp4" src="imagesnh/coverr-girl-in-the-computer-7195.mp4" aria-label="Tjej som skriver på en lap-top"/>
+                </div>
+                <a href="">
+                    <h2>Erfarenhet och ambition värderas högt</h2>
+                </a>
+                <p> Att söka till yrkeshögskolan skiljer sig från att söka till universitet/högskola. Antagningen kan ske via exempelvis
+                tester, intervjuer och problemlösningar. Din erfarenhet och ambition är ofta viktigare än dina betyg.</p>
+                <a href="#" style="float:right;"><p>Fler filmer</p></a>
+            </div>
+            
+        </div>
+        <div class="navbar">
+            <h1>Aktuellt</h1>
+        </div>
+        <div id="calender">
+            <div class="calenderbar">November 03 2020</div>
+            <div class="calenderinfo">Distansstöds webbcafé
+            En möjlighet för dig som anordnare att möta andra anordnare vid särskilda webbcaféer för frågor och samtal kring hur man kan lösa de utmaningar och dra nytta av de möjligheter som undervisning på distans innebär.
+            </div>
+            <div class="calenderbar">November 05 2020</div>
+            <div class="calenderinfo">Distansstöds webbcafé
+            En möjlighet för dig som anordnare att möta andra anordnare vid särskilda webbcaféer för frågor och samtal kring hur man kan lösa de utmaningar och dra nytta av de möjligheter som undervisning på distans innebär.
+            </div>
+            <div class="calenderbar">November 05 2020</div>
+            <div class="calenderinfo">Extra webbinarium: Samtal om oro inför omställning av utbildningar
+            Just nu ser vi allt fler tecken på att smittspridningen av covid-19 ökar i samhället, framför allt på regional nivå. Kommer vi behöva ställa om våra utbildningar igen, och vilka lösningar är möjliga? Projektet Distansstöd har satt in ett extra webbinarium den 5 november för samtal med myndigheten om den oro som många anordnare känner inför att ställa om sin undervisning.
+            </div>
+            <div class="calenderbar">November 18-19 2020</div>
+            <div class="calenderinfo">Kunskap & Framtid - digital mässa
+            Myndigheten deltar på årets digitala studentmässa med monter och föreläsning. Under mässan finns det även möjlighet att kontakta oss med frågor om utbildningsformerna yrkeshögskolan, konst- och kulturutbildningar och tolk inom folkbildningen. 
+            Läs mer om mässan på Kunskap & Framtids webbplats</div>
+            
+            <div class="calenderbar">November 24-27 2020</div>
+            <div class="calenderinfo">Saco studentmässa
+            Myndigheten deltar på årets digitala studentmässa med monter och föreläsning. Under mässan finns det även möjlighet att chatta med oss om utbildningsformerna yrkeshögskolan, konst- och kulturutbildningar och tolk inom folkbildningen. 
+            Läs mer om mässan på Sacos webbplats.
+            <a href="#" style=float:right;>
+                <p>Alla kalenderhändelser</p>
+            </a></div>
+        </div>
+
+        <div class="navbar"><h1>Press</h1></div>
+        <div id="press">
+             <p>Presskontakt:   
+               Johan Lindahl<br><br>
+               Telefon:<a href="tel:+010-209 01 73">010-209 01 73</a><br>
+               E-post: <a href="mailto:johan.lindahl@myh.se">johan.lindahl@myh.se</a><br><br>
+               <a href="#">Nyhetsrum på MyNewsDesk</a>
+            </p><br>
+            <a href="#">Pressbilder</a>
+        </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="contact footer-content">
+            <div class="footer-container">
+            <h3>Kontakta oss</h3>
+            <p>Kontaktuppgifter & kontaktalternativ finns här: <a target="_blank" href="/contact-page/contact.html">kontakta oss</a></p>
+            <h4>Ansvarig utgivare</h4>
+            <p>Thomas Persson, generaldirektör MYH</p>
+          </div>
+          </div>
+          <div class="our-news footer-content">
+            <div class="footer-container">
+            <h3>Håll dig informerad</h3>
+            <!-- <h4>Press</h4> -->
+            <p>Presskontaker och pressmeddelanden finns i vårat <a href="#">nyhetsrum</a></p>
+            <a id="youtube" target="_blank" href="https://www.youtube.com/channel/UC8iPn0eKy-5vQ6Mx_-ep-KA"><img id=play-icon src="img/play-img.png" alt="">Youtube</a>
+            <a id="twitter" target="_blank" href="https://twitter.com/yhmyndigheten"><img id="twitter-icon" src="/img/twitter-img.png" alt="">Twitter</a>
+          </div>
+          </div>
+          <div class="our-web footer-content">
+            <div class="footer-container">
+            <h3>Våra webbplatser</h3>
+            <a target="_blank" href="https://www.yrkeshögskolan.se">www.yrkeshögskolan.se</a>
+            <a target="_blank" href="https://www.konstkulturutbildning.se">www.konstkulturutbildning.se</a>
+            <a target="_blank" href="https://www.blitolk.nu">www.blitolk.nu</a>
+            <a target="_blank" href="https://www.seqf.se">www.seqf.se</a>
+          </div>
+          </div>
+        
+    </footer>
+</body>
+
+</html>

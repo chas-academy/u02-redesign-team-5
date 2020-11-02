@@ -35,8 +35,6 @@ This project makes the site myh.se responsive and possible to use when on a smal
 - Laptop (upplösning 1280 x 900 och uppåt)
 - Apple iPhone 8 (414x736)
 
-
-
 #### Content demands
 
 Innehåller ny design för samtliga landningssidor i MYH.se
@@ -60,17 +58,57 @@ huvudmeny:
 - Inbäddad media såsom video och/eller ljud
 - Statiskt kontaktformulär
 
-*****************************************************
+---
 
 ## STYLING
 
 #### Media querys
+
 - @media screen and (max-width: 1280px)
 - @media screen and (max-width: 720px)
 
 #### Accordion in CSS
+
 ##### HTML
+
 ```html
+<<<<<<< HEAD
+<ul class="accordion4">
+  <li class="accordion-item4">
+    <p class="accordion-h6">Dela denna info 💻</p>
+    <p class="accordion-h6">⬇</p>
+    <div class="accordion-item-content4">
+      <hr />
+      <img
+        class="thumbnail"
+        src="assets/fb.png"
+        alt="fb-icon"
+        width="25"
+        height="25"
+      />
+      <img
+        class="thumbnail"
+        src="assets/mail.png"
+        alt="mail-icon"
+        width="25"
+        height="25"
+      />
+      <img
+        class="thumbnail"
+        src="assets/twitter.png"
+        alt="twitter-icon"
+        width="25"
+        height="25"
+      />
+    </div>
+  </li>
+</ul>
+```
+
+##### CSS
+
+```css
+=======
     <ul class="accordion1">
         <li class="accordion-item1">
           <p class="accordion-h6">Lagar, Regler & Tillsyn 🧑🏽‍⚖️</p>
@@ -92,6 +130,7 @@ huvudmeny:
  ```    
  ##### CSS
 ```css 
+>>>>>>> main
 .accordion1 .accordion2 .accordion3 .accordion4 .accordion-item,
 .accordion-item1,
 .accordion-item2,
@@ -111,11 +150,11 @@ huvudmeny:
   text-align: center;
   text-decoration: none;
   color: black;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .accordion-p {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 12px;
   font-weight: 100;
   text-decoration: none;
@@ -134,12 +173,17 @@ huvudmeny:
   font-weight: 100;
   text-decoration: none;
   color: black;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
- .accordion4 .accordion-item4 {
+.accordion4 .accordion-item4 {
   background-color: hsl(80, 40%, 40%);
-  background-image: linear-gradient(-90deg, hsl(80, 80%, 40%), hsl(80, 80%, 35%) 2em, hsl(80, 80%, 40%));
+  background-image: linear-gradient(
+    -90deg,
+    hsl(80, 80%, 40%),
+    hsl(80, 80%, 35%) 2em,
+    hsl(80, 80%, 40%)
+  );
 }
 
 .accordion-item4:hover .accordion-item-content4,
@@ -150,7 +194,7 @@ huvudmeny:
 .accordion-item-content4 {
   height: 0;
   overflow: hidden;
-  transition: height .25s;
+  transition: height 0.25s;
 }
 ```
 
