@@ -89,7 +89,6 @@ nav {
 }
 
 main {
-  display: flex;
   grid-area: main;
   height: 100%;
   width: 100vw;
@@ -198,31 +197,6 @@ main {
 }
 
 
-
-#radio-2:checked ~ .slides {
-  transform: translateX(-25%);
-}
-
-#radio-3:checked ~ .slides {
-  transform: translateX(-50%);
-}
-
-#radio-4:checked ~ .slides {
-  transform: translateX(-75%);
-}
-
-.carrousel .slidesNavigation label:hover {
-  cursor: pointer;
-}
-
-.carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
-.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
-.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
-.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
-  background: #2980b9;
-}
-
-
 /* FOOTER */
 footer {
   grid-area: footer;
@@ -235,71 +209,6 @@ footer {
   font-size: 14px;
   justify-content: center;
 }
-.footer-container {
-  margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  width: auto;
-}
-footer a {
-  color: rgb(209, 208, 208);
-  font-weight: 600;
-  margin: 3px 0;
-}
-footer a:hover {
-  font-size: 0.9rem;
-}
-footer h3 {
-  margin-bottom: 10px;
-}
-footer p {
-  max-width: 130px;
-}
-footer h4 {
-  margin: 10px 5px 0 0;
-}
-#play-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-}
-#youtube {
-  display: flex;
-  margin-top: 10px;
-}
-#twitter-icon {
-  height: 18px;
-  width: 20px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-#twitter {
-  display: flex;
-}
-.contact {
-  display: flex;
-  flex-direction: column;
-}
-.our-web {
-  display: flex;
-  flex-direction: column;
-}
-.our-news {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-content {
-  margin-top: 25px;
-  width: 400px;
-}
-
-@media screen and (max-width: 1280px) {
-  .footer-content {
-    width: 300px;
-  }
-}
-
 .footer-container {
   margin: 0px auto;
   display: flex;
@@ -437,7 +346,3 @@ footer h4 {
     margin-right: 0.25em;
   }
 }
-
-
-
-
